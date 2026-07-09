@@ -1,0 +1,1253 @@
+<mxfile host="Electron" modified="2024-05-07T16:03:34.248Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="2y-mohKsJenldohq2BkR" version="24.2.5" type="device" pages="5">
+  <diagram id="gEhJZfFlqRf5Ee9eKQBT" name="1.Forward_by_steps">
+    <mxGraphModel dx="2245" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#000000;dashed=1;fontColor=#000000;fontFamily=Helvetica;" parent="1" source="vmOxnMwlMYO3FTpxFrxZ-2" target="vmOxnMwlMYO3FTpxFrxZ-78" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="37T7WziDIQ9imAIGLyMo-1" value="&lt;span style=&quot;font-size: 7px;&quot;&gt;26.UserSourceCurrencyAmount-&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 7px;&quot;&gt;44.UserDestinationSourceCurrencyAmount&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="vmOxnMwlMYO3FTpxFrxZ-1" vertex="1" connectable="0">
+          <mxGeometry x="0.6831" relative="1" as="geometry">
+            <mxPoint y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-2" value="&lt;span style=&quot;font-size: 9px;&quot;&gt;26.UserSourceCurrencyAmount&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;align=left;verticalAlign=middle;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-300" y="177" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-3" value="&lt;p style=&quot;font-size: 9px;&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 9px;&quot;&gt;27.UserPaymentSystemCurrencyAmount&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;align=left;verticalAlign=middle;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-300" y="207" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-4" value="&lt;span style=&quot;font-size: 9px;&quot;&gt;28.UserBaseCurrencyAmount&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;align=left;verticalAlign=middle;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-300" y="237" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=7;align=left;spacing=0;fontFamily=Helvetica;fontColor=#000000;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-301" y="251" as="targetPoint" />
+            <mxPoint x="-301" y="221" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-351" y="221" />
+              <mxPoint x="-351" y="251" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-6" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontColor=#000000;" parent="vmOxnMwlMYO3FTpxFrxZ-5" vertex="1" connectable="0">
+          <mxGeometry x="0.0617" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-7" value="&lt;span style=&quot;font-size: 7px;&quot;&gt;27.UserPaymentSystemCurrencyAmount&lt;/span&gt;&lt;span style=&quot;font-size: 7px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 7px;&quot;&gt;/&lt;/span&gt;&lt;div style=&quot;font-size: 7px;&quot;&gt;&lt;span style=&quot;font-size: 7px;&quot;&gt;16.PaymentSystemToBaseCurrencyRate&lt;/span&gt;&lt;br style=&quot;font-size: 7px;&quot;&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=7;fontColor=#000000;labelBackgroundColor=default;fillColor=none;gradientColor=none;" parent="vmOxnMwlMYO3FTpxFrxZ-5" vertex="1" connectable="0">
+          <mxGeometry x="0.1006" y="-1" relative="1" as="geometry">
+            <mxPoint x="-89" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-8" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;Перевод суммы, внесенной пользователем в source currency (26&lt;span style=&quot;text-align: left;&quot;&gt;.UserSourceCurrencyAmount&lt;/span&gt;), в payment system и base currency&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=7;fontStyle=2;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-300" y="257" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontColor=#000000;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-301" y="221" as="targetPoint" />
+            <mxPoint x="-300" y="182" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-351" y="182" />
+              <mxPoint x="-351" y="221" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-10" value="&lt;span style=&quot;font-size: 7px;&quot;&gt;&lt;font style=&quot;font-size: 7px;&quot;&gt;26.UserSourceCurrencyAmount&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 7px;&quot;&gt;/&lt;/span&gt;&lt;div style=&quot;font-size: 7px;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 7px;&quot;&gt;15.SourceToPaymentSystemCurrencyRate&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontColor=#000000;" parent="vmOxnMwlMYO3FTpxFrxZ-9" vertex="1" connectable="0">
+          <mxGeometry x="0.1298" y="1" relative="1" as="geometry">
+            <mxPoint x="-91" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontColor=#000000;" parent="1" source="vmOxnMwlMYO3FTpxFrxZ-13" target="vmOxnMwlMYO3FTpxFrxZ-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-195" y="95" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-12" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;text-wrap: wrap;&quot;&gt;Внесенная в виджет пользователем&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;text-wrap: wrap;&quot;&gt;сумма фиатной валюты в source currency (26&lt;/span&gt;&lt;span style=&quot;text-wrap: wrap; text-align: left;&quot;&gt;.UserSourceCurrencyAmount)&lt;/span&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];container=1;imageWidth=59;imageHeight=30;pointerEvents=0;fontSize=7;fontFamily=Helvetica;fontColor=#000000;" parent="vmOxnMwlMYO3FTpxFrxZ-11" vertex="1" connectable="0">
+          <mxGeometry x="-0.32" relative="1" as="geometry">
+            <mxPoint x="9" y="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-13" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-485" y="80" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-14" value="start" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=7;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-500" y="100" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-15" value="&lt;span style=&quot;font-size: 9px;&quot;&gt;29.&lt;/span&gt;UserBaseCurrencyAmount*&lt;span style=&quot;font-size: 9px;&quot;&gt;ServiceFeeCoefficient&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;align=left;verticalAlign=middle;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-485" y="320" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.425;entryY=-0.122;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontColor=#000000;" parent="1" target="vmOxnMwlMYO3FTpxFrxZ-31" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-195" y="490" as="targetPoint" />
+            <mxPoint x="-30" y="400" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-30" y="480" />
+              <mxPoint x="-196" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-17" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-bottom: 0cm; font-size: 7px;&quot;&gt;&lt;b&gt;if &lt;/b&gt;23.WithdrawalFeeType = &quot;Fixed&quot;: 24.WithdrawalFee*19.ExchangeToWithdrawalFeeCurrencyRate&lt;br&gt;&lt;b&gt;else:&lt;/b&gt;&amp;nbsp;24.WithdrawalFee*31.GrossExchangeCurrencyAmount&lt;/p&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontColor=#000000;" parent="vmOxnMwlMYO3FTpxFrxZ-16" vertex="1" connectable="0">
+          <mxGeometry x="0.0955" y="-3" relative="1" as="geometry">
+            <mxPoint x="-98" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontColor=#000000;" parent="1" source="vmOxnMwlMYO3FTpxFrxZ-20" target="vmOxnMwlMYO3FTpxFrxZ-48" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-19" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;font-size: 7px;&quot;&gt;30.NetUserBaseCurrencyAmount*&lt;br&gt;17.ExchangeToBaseCurrencyRate&lt;br&gt;&lt;/p&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontColor=#000000;" parent="vmOxnMwlMYO3FTpxFrxZ-18" vertex="1" connectable="0">
+          <mxGeometry x="0.1227" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-20" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 9px; font-weight: normal;&quot;&gt;30.NetUserBaseCurrencyAmount&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;align=left;verticalAlign=middle;fontFamily=Helvetica;fontStyle=1;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-155" y="321" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.429;entryY=-0.25;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontColor=#000000;" parent="1" source="vmOxnMwlMYO3FTpxFrxZ-4" target="vmOxnMwlMYO3FTpxFrxZ-15" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-195" y="290" />
+              <mxPoint x="-378" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-22" value="&lt;span style=&quot;text-align: left; text-wrap: wrap; font-size: 7px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 7px;&quot;&gt;28.UserBaseCurrencyAmount*&lt;/font&gt;&lt;/span&gt;&lt;div style=&quot;font-size: 7px;&quot;&gt;&lt;span style=&quot;text-align: left; text-wrap: wrap; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 7px;&quot;&gt;22.ServiceFeeCoefficient&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontColor=#000000;" parent="vmOxnMwlMYO3FTpxFrxZ-21" vertex="1" connectable="0">
+          <mxGeometry x="0.5746" y="2" relative="1" as="geometry">
+            <mxPoint x="-76" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontColor=#000000;" parent="1" source="vmOxnMwlMYO3FTpxFrxZ-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-195" y="290" />
+              <mxPoint x="-30" y="290" />
+              <mxPoint x="-30" y="322" />
+            </Array>
+            <mxPoint x="-30" y="322" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-24" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;font-size: 7px;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;28.UserBaseCurrencyAmount*&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;&quot;&gt;(1-22.ServiceFeeCoefficient)&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontColor=#000000;" parent="vmOxnMwlMYO3FTpxFrxZ-23" vertex="1" connectable="0">
+          <mxGeometry x="0.487" relative="1" as="geometry">
+            <mxPoint x="79" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-25" value="Вычисление &quot;Fixed&quot; service fee в base currency" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=7;fontStyle=2;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-485" y="340" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-26" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;&lt;i&gt;Вычисление&amp;nbsp;&lt;span style=&quot;text-align: left;&quot;&gt;UserBaseCurrencyAmount за вычетом&amp;nbsp;&lt;/span&gt;&quot;Fixed&quot; service fee&amp;nbsp;&lt;/i&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=7;fontStyle=0;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-155" y="341" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontColor=#000000;" parent="1" source="vmOxnMwlMYO3FTpxFrxZ-31" target="vmOxnMwlMYO3FTpxFrxZ-39" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-355" y="532" />
+              <mxPoint x="-355" y="559" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-28" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;font-size: 7px;&quot;&gt;32.WithdrawalFeeExchangeCurrencyAmount&lt;span lang=&quot;EN-US&quot;&gt;/&lt;/span&gt;&lt;br&gt;17.ExchangeToBaseCurrencyRate&lt;br&gt;&lt;/p&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontColor=#000000;" parent="vmOxnMwlMYO3FTpxFrxZ-27" vertex="1" connectable="0">
+          <mxGeometry x="0.0569" y="1" relative="1" as="geometry">
+            <mxPoint x="-74" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontColor=#000000;" parent="1" source="vmOxnMwlMYO3FTpxFrxZ-31" target="vmOxnMwlMYO3FTpxFrxZ-47" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-300" y="530" />
+              <mxPoint x="-555" y="530" />
+              <mxPoint x="-555" y="643" />
+            </Array>
+            <mxPoint x="-300" y="516" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-30" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-bottom: 0cm; font-size: 7px;&quot;&gt;32.WithdrawalFeeExchangeCurrencyAmount/&lt;br&gt;19.ExchangeToWithdrawalFeeCurrencyRate&lt;br&gt;&lt;/p&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontColor=#000000;" parent="vmOxnMwlMYO3FTpxFrxZ-29" vertex="1" connectable="0">
+          <mxGeometry x="0.1151" y="1" relative="1" as="geometry">
+            <mxPoint x="9" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-31" value="&lt;p style=&quot;font-size: 9px;&quot; class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;32.WithdrawalFeeExchangeCurrencyAmount&lt;/font&gt;&lt;span style=&quot;font-size: 9px;&quot;&gt;&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;align=left;verticalAlign=middle;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-300" y="522" width="245" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontColor=#000000;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="146" y="718" as="sourcePoint" />
+            <mxPoint x="146" y="789" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-33" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;font-size: 7px;&quot;&gt;&lt;font&gt;37.NetExchangeCurrencyAmount/&lt;br&gt;18.ExchangeToDestinationCurrencyRate&lt;/font&gt;&lt;br&gt;&lt;/p&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontColor=#000000;" parent="vmOxnMwlMYO3FTpxFrxZ-32" vertex="1" connectable="0">
+          <mxGeometry x="0.1568" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-34" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;37.NetExchangeCurrencyAmount&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;align=left;verticalAlign=middle;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="30" y="698" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-35" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;&lt;i&gt;Вычисление&amp;nbsp;&lt;/i&gt;&lt;i&gt;&lt;span style=&quot;text-align: left;&quot;&gt;внесенной пользователем суммы&lt;/span&gt;&lt;/i&gt;&lt;i&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&amp;nbsp;за вычетом&amp;nbsp;&lt;/span&gt;&quot;Fixed&quot; service fee и&amp;nbsp;&lt;/i&gt;&lt;i&gt;W&lt;span style=&quot;text-align: left;&quot;&gt;ithdrawal fee в exchange currency&lt;/span&gt;&lt;/i&gt;&lt;i&gt;&amp;nbsp;&lt;/i&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=7;fontStyle=0;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="30" y="719" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontColor=#000000;" parent="1" target="vmOxnMwlMYO3FTpxFrxZ-34" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-30" y="420" as="sourcePoint" />
+            <mxPoint x="145" y="659" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-30" y="480" />
+              <mxPoint x="145" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.459;entryY=0.09;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;dashed=1;strokeColor=#000000;fontColor=#000000;" parent="1" source="vmOxnMwlMYO3FTpxFrxZ-31" target="vmOxnMwlMYO3FTpxFrxZ-34" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-38" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;font-size: 7px;&quot;&gt;31.GrossExchangeCurrencyAmount-&lt;br&gt;32.WithdrawalFeeExchangeCurrencyAmount&lt;br&gt;&lt;/p&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontColor=#000000;" parent="vmOxnMwlMYO3FTpxFrxZ-37" vertex="1" connectable="0">
+          <mxGeometry x="0.7092" y="1" relative="1" as="geometry">
+            <mxPoint y="-50" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-39" value="&lt;p style=&quot;font-size: 9px;&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 9px;&quot;&gt;33.WithdrawalFeeBaseCurrencyAmount&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;align=left;verticalAlign=middle;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-300" y="549" width="245" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-40" value="&lt;span style=&quot;font-size: 9px;&quot;&gt;34.WithdrawalFeePaymentSystemCurrencyAmount&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;align=left;verticalAlign=middle;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-300" y="577" width="245" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-41" value="&lt;p style=&quot;font-size: 9px;&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 9px;&quot;&gt;35.WithdrawalFeeSourceCurrencyAmount&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;align=left;verticalAlign=middle;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-300" y="605" width="245" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontColor=#000000;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-300" y="559" as="sourcePoint" />
+            <mxPoint x="-300" y="586" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-355" y="559" />
+              <mxPoint x="-355" y="586" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-43" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;font-size: 7px;&quot;&gt;33.WithdrawalFeeBaseCurrencyAmount*&lt;br&gt;16.PaymentSystemToBaseCurrencyRate&lt;br&gt;&lt;/p&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontColor=#000000;" parent="vmOxnMwlMYO3FTpxFrxZ-42" vertex="1" connectable="0">
+          <mxGeometry x="0.0352" relative="1" as="geometry">
+            <mxPoint x="-66" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontColor=#000000;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-300" y="586" as="sourcePoint" />
+            <mxPoint x="-300" y="613" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-355" y="586" />
+              <mxPoint x="-355" y="613" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-45" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;font-size: 7px;&quot;&gt;34.WithdrawalFeePaymentSystemCurrencyAmount*&lt;br&gt;15.SourceToPaymentSystemCurrencyRate&lt;br&gt;&lt;/p&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontColor=#000000;" parent="vmOxnMwlMYO3FTpxFrxZ-44" vertex="1" connectable="0">
+          <mxGeometry x="0.0438" relative="1" as="geometry">
+            <mxPoint x="-83" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;dashed=1;strokeColor=#000000;fontColor=#000000;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-35" y="620" />
+              <mxPoint x="-35" y="655" />
+              <mxPoint x="805" y="655" />
+              <mxPoint x="805" y="605" />
+            </Array>
+            <mxPoint x="-55" y="620" as="sourcePoint" />
+            <mxPoint x="845" y="605" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-47" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;font-size: 9px;&quot;&gt;&lt;font&gt;&lt;span style=&quot;font-size: 9px;&quot;&gt;36.&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;WithdrawalFeeWithdrawalCurrencyAmount&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size:9.0pt&quot;&gt;&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;align=left;verticalAlign=middle;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-300" y="633" width="245" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-48" value="&lt;p style=&quot;&quot; class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;31.GrossExchangeCurrencyAmount&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;align=left;verticalAlign=middle;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-155" y="402" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-49" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;i style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;Конвертация UserBaseCurrencyAmount за вычетом&amp;nbsp;&lt;/span&gt;&quot;Fixed&quot; service fee в exchange currency&amp;nbsp;&lt;/i&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=7;fontStyle=0;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-155" y="422" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-50" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;&lt;i&gt;Вычисление W&lt;span style=&quot;text-align: left;&quot;&gt;ithdrawal fee в exchange, base, payment system, source и withdrawal currency&lt;/span&gt;&amp;nbsp;&lt;/i&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=7;fontStyle=0;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-300" y="654" width="245" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-51" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;39.SwapProviderFeeDestinationCurrencyAmount&lt;/font&gt;&lt;span style=&quot;font-size: 9pt;&quot;&gt;&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;align=left;verticalAlign=middle;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-135" y="891" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-52" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;40.UserDestinationCurrencyAmount&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;align=left;verticalAlign=middle;fontFamily=Helvetica;fontStyle=0;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="195" y="961" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontColor=#000000;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="148" y="809" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="148" y="860" />
+              <mxPoint x="-30" y="860" />
+            </Array>
+            <mxPoint x="-30" y="891" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-54" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;font-size: 7px;&quot;&gt;38.NonCorrectedDestinationCurrencyAmount&lt;br&gt;*25.SwapProviderFee&lt;br&gt;&lt;/p&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontColor=#000000;" parent="vmOxnMwlMYO3FTpxFrxZ-53" vertex="1" connectable="0">
+          <mxGeometry x="0.5746" y="2" relative="1" as="geometry">
+            <mxPoint x="-76" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-55" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;Вычисление&amp;nbsp;&lt;span style=&quot;text-align: left;&quot;&gt;Swap provider fee в destination&lt;/span&gt;&amp;nbsp;currency&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=7;fontStyle=2;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-135" y="911" width="250" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-56" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;&quot;&gt;38.&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;NonCorrectedDestinationCurrencyAmount&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size:9.0pt&quot;&gt;&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;align=left;verticalAlign=middle;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="30" y="789" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-57" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;&lt;i&gt;Вычисление&amp;nbsp;&lt;/i&gt;&lt;i&gt;&lt;span style=&quot;text-align: left;&quot;&gt;внесенной пользователем суммы&amp;nbsp;&lt;/span&gt;&lt;/i&gt;&lt;i&gt;&lt;span style=&quot;text-align: left;&quot;&gt;за вычетом&amp;nbsp;&lt;/span&gt;&quot;Fixed&quot; service fee и&amp;nbsp;&lt;/i&gt;&lt;i&gt;W&lt;span style=&quot;text-align: left;&quot;&gt;ithdrawal fee в destination currency&lt;/span&gt;&lt;/i&gt;&lt;i&gt;&amp;nbsp;&lt;/i&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=7;fontStyle=0;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="30" y="809" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.522;entryY=0.057;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontColor=#000000;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="148" y="860" />
+              <mxPoint x="318" y="860" />
+            </Array>
+            <mxPoint x="148.0344827586207" y="829" as="sourcePoint" />
+            <mxPoint x="318.5" y="962.1399999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.522;entryY=-0.081;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;dashed=1;strokeColor=#000000;fontColor=#000000;" parent="1" source="vmOxnMwlMYO3FTpxFrxZ-51" target="vmOxnMwlMYO3FTpxFrxZ-52" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="325" y="901" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-60" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;font-size: 7px;&quot;&gt;38.NonCorrectedDestinationCurrencyAmount/&lt;br&gt;21.AdjustmentFactor-&lt;br&gt;39.SwapProviderFeeDestinationCurrencyAmount&lt;br&gt;&lt;/p&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontColor=#000000;" parent="vmOxnMwlMYO3FTpxFrxZ-59" vertex="1" connectable="0">
+          <mxGeometry x="0.7691" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-61" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;41.UserDestinationExchangeCurrencyAmount&lt;/font&gt;&lt;span style=&quot;font-size: 9pt;&quot;&gt;&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;align=left;verticalAlign=middle;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="195" y="989" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-62" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;42.UserDestinationBaseCurrencyAmount&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;align=left;verticalAlign=middle;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="195" y="1017" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-63" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;43.UserDestinationPaymentSystemCurrencyAmount&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;align=left;verticalAlign=middle;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="195" y="1045" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontColor=#000000;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="575" y="603" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="495" y="1086" />
+              <mxPoint x="495" y="603" />
+            </Array>
+            <mxPoint x="445" y="1086" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-66" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;44.UserDestinationSourceCurrencyAmount&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;align=left;verticalAlign=middle;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="195" y="1073" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontColor=#000000;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="195" y="970" as="sourcePoint" />
+            <mxPoint x="195" y="997" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="140" y="970" />
+              <mxPoint x="140" y="997" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-68" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;font-size: 7px;&quot;&gt;40.UserDestinationCurrencyAmount*&lt;br&gt;18.ExchangeToDestinationCurrencyRate&lt;br&gt;&lt;/p&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontColor=#000000;" parent="vmOxnMwlMYO3FTpxFrxZ-67" vertex="1" connectable="0">
+          <mxGeometry x="0.0438" relative="1" as="geometry">
+            <mxPoint x="-65" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontColor=#000000;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="195" y="997" as="sourcePoint" />
+            <mxPoint x="195" y="1024" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="140" y="997" />
+              <mxPoint x="140" y="1024" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-70" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;font-size: 7px;&quot;&gt;41.UserDestinationExchangeCurrencyAmount/&lt;br&gt;17.ExchangeToBaseCurrencyRate&lt;br&gt;&lt;/p&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontColor=#000000;" parent="vmOxnMwlMYO3FTpxFrxZ-69" vertex="1" connectable="0">
+          <mxGeometry x="0.0438" relative="1" as="geometry">
+            <mxPoint x="-75" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontColor=#000000;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="195" y="1024" as="sourcePoint" />
+            <mxPoint x="195" y="1051" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="140" y="1024" />
+              <mxPoint x="140" y="1051" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-72" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;font-size: 7px;&quot;&gt;42.UserDestinationBaseCurrencyAmount*&lt;br&gt;16.PaymentSystemToBaseCurrencyRate&lt;br&gt;&lt;/p&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontColor=#000000;" parent="vmOxnMwlMYO3FTpxFrxZ-71" vertex="1" connectable="0">
+          <mxGeometry x="0.0438" relative="1" as="geometry">
+            <mxPoint x="-68" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontColor=#000000;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="195" y="1051" as="sourcePoint" />
+            <mxPoint x="195" y="1078" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="140" y="1051" />
+              <mxPoint x="140" y="1078" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-74" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;font-size: 7px;&quot;&gt;43.UserDestinationPaymentSystemCurrencyAmount*&lt;br&gt;15.SourceToPaymentSystemCurrencyRate&lt;br&gt;&lt;/p&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontColor=#000000;" parent="vmOxnMwlMYO3FTpxFrxZ-73" vertex="1" connectable="0">
+          <mxGeometry x="0.0438" relative="1" as="geometry">
+            <mxPoint x="-85" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-75" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;&lt;i&gt;Вычисление полученной пользователем суммы в криптовалюте&amp;nbsp;&lt;/i&gt;&lt;i&gt;&lt;font style=&quot;font-size: 7px;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;в destination, exchange, base, payment system и source currency&lt;/span&gt;&amp;nbsp;&lt;/font&gt;&lt;/i&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=7;fontStyle=0;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="195" y="1094" width="245" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontColor=#000000;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="775" y="598" as="sourcePoint" />
+            <mxPoint x="845" y="598" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-77" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;font-size: 7px;&quot;&gt;&lt;span style=&quot;&quot;&gt;26.UserSourceCurrencyAmount-&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;&quot;&gt;44.UserDestinationSourceCurrencyAmount-&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;&quot;&gt;35.WithdrawalFeeSourceCurrencyAmount&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontColor=#000000;" parent="vmOxnMwlMYO3FTpxFrxZ-76" vertex="1" connectable="0">
+          <mxGeometry x="-0.0723" y="-1" relative="1" as="geometry">
+            <mxPoint y="-42" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-78" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;45.ServiceFeeSourceCurrencyAmount&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;align=left;verticalAlign=middle;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="575" y="590" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontColor=#000000;" parent="1" source="vmOxnMwlMYO3FTpxFrxZ-80" target="vmOxnMwlMYO3FTpxFrxZ-81" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-80" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;46.FeeSourceCurrencyAmount&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;align=left;verticalAlign=middle;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="845" y="590" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-81" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="1105" y="585" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-82" value="end" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=7;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="1090" y="611" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-83" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;&lt;span&gt;Вычисление Service fee в source currency =&amp;nbsp;&lt;/span&gt;&lt;span&gt;&lt;font style=&quot;font-size: 7px;&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;Внесенная в виджет пользователем&amp;nbsp;сумма фиатной валюты (в source currency) за вычетом&amp;nbsp;&lt;span&gt;полученной пользователем суммы&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;в криптовалюте (&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font&gt;&lt;span style=&quot;text-align: left;&quot;&gt;в source currency)&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=7;fontStyle=2;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="575" y="616" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-84" value="&lt;span&gt;Вычисление Service fee в source currency =&amp;nbsp;&lt;/span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;Внесенная в виджет пользователем&amp;nbsp;сумма фиатной валюты (в source currency) за вычетом&amp;nbsp;&lt;span&gt;полученной пользователем суммы&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;в криптовалюте (&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;в source currency) и за вычетом&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;span&gt;W&lt;span style=&quot;text-align: left;&quot;&gt;ithdrawal fee (в source currency&lt;/span&gt;)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=7;fontStyle=2;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="845" y="612" width="200" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-85" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 14px;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;Исходные данные&amp;nbsp;&lt;/b&gt;&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px; font-size: 9px;&quot;&gt;распарсены из&amp;nbsp;&lt;span style=&quot;background-color: initial; font-size: 9px;&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;json&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 9px;&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 9px;&quot;&gt;столбца таблицы&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;span lang=&quot;EN-US&quot;&gt;fiat_crypto_converted_operations_additional_info,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;&quot;&gt;dwh&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;align=left;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-815" y="10.5" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-86" value="&lt;ol style=&quot;font-size: 9px;&quot;&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;SourceCurrency&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;SourceCurrencyDecimalDigits&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;DestinationCurrency&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;DestinationCurrencyDecimalDigits&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;BaseCurrency&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;BaseCurrencyDecimalDigits&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;PaymentSystemCurrency&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;PaymentSystemCurrencyDecimalDigits&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ExchangeCurrency&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ExchangeCurrencyDecimalDigits&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;WithdrawalFeeCurrency&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;WithdrawalFeeCurrencyDecimalDigits&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;SwapCurrency&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;SwapCurrencyDecimalDigits&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;SourceToPaymentSystemCurrencyRate&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;PaymentSystemToBaseCurrencyRate&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ExchangeToBaseCurrencyRate&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ExchangeToDestinationCurrencyRate&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ExchangeToWithdrawalFeeCurrencyRate&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;SwapToDestinationCurrencyRate&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;AdjustmentFactor&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ServiceFeeCoefficient&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;WithdrawalFeeType&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;WithdrawalFee&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;SwapProviderFee&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;UserSourceCurrencyAmount&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;align=left;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-815" y="60" width="250" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-87" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Forward-в&lt;/span&gt;ычисления на основе исходных данных&amp;nbsp;&lt;/font&gt;&lt;/h1&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;&lt;p style=&quot;margin-bottom:0cm&quot; class=&quot;MsoNormal&quot;&gt;&lt;font&gt;&lt;b&gt;и формул с листа «ForwardUserAmountsCalc3» гугл-таблицы «&lt;/b&gt;&lt;a href=&quot;https://docs.google.com/spreadsheets/d/1FeZcCx6ATETNPlvrDPwgKaPnJgs36vABzm52tFlCbQA/edit?pli=1#gid=356043838&quot;&gt;&lt;b&gt;Cryptostorm Operation data model (Fiat -_ BTC)&lt;/b&gt;&lt;/a&gt;&lt;/font&gt;&lt;b&gt;&lt;font&gt;»&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;align=left;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-515" y="10.5" width="1115" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-88" value="&lt;p style=&quot;font-size: 9px;&quot;&gt;&lt;font style=&quot;background-color: initial;&quot;&gt;*&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Вычисления с листа&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;«ForwardUserAmountsCalc3» гугл-таблицы «&lt;/span&gt;&lt;a style=&quot;background-color: initial;&quot; href=&quot;https://docs.google.com/spreadsheets/d/1FeZcCx6ATETNPlvrDPwgKaPnJgs36vABzm52tFlCbQA/edit?pli=1#gid=356043838&quot;&gt;Cryptostorm Operation data model (Fiat -_ BTC)&lt;/a&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;»&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;(и, как следствие, вычисления справа) не полные, т.к. не включают:&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- описание расчета&amp;nbsp;PaymentSystem&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; lang=&quot;EN-US&quot;&gt;Fee&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt; и &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; lang=&quot;EN-US&quot;&gt;AgentsFee;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- возможность использования имеющихся в &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; lang=&quot;EN-US&quot;&gt;Itez&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; lang=&quot;EN-US&quot;&gt; &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;остатков в &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; lang=&quot;EN-US&quot;&gt;destination и withdrawal&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; lang=&quot;EN-US&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; lang=&quot;EN-US&quot;&gt;currency, как источников криптовалюты для транзакции.&lt;/span&gt;&lt;/p&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-size: 9pt;&quot;&gt;&lt;/span&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;align=left;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-800" y="430" width="170" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="vmOxnMwlMYO3FTpxFrxZ-89" value="&lt;div style=&quot;font-size: 9px;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;**&lt;font&gt;Существует два способа расчета - forward и reverse:&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;font&gt;- при forward расчете все финансовые потоки последовательно рассчитываются от суммы, которую пользователь внес в фиатной валюте;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;font&gt;- при reverse расчете все финансовые потоки последовательно рассчитываются от суммы, которую пользователь получил в криптовалюте.&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;align=left;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-800" y="604.5" width="180" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="y2KQ_ZXbi5hoQFVJt2GE-1" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 14px;&quot;&gt;Комментарии&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;align=left;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-800" y="405" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MFYoEqTz_kJMTuOWx00u-1" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Нужно ли здесь добавлять 3 ветки по источникам&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;криптовалюты для транзакции:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1. внутренние источники;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2. swap;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3. биржа и осуществлять конвертацию в exchange currency только для ветки 3.биржа?&lt;/span&gt;&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#EA6B66;" parent="1" vertex="1">
+          <mxGeometry x="45" y="360" width="290" height="53" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Pwc6Jws1T5JmN8oXTFGN" name="2.Forward_short">
+    <mxGraphModel dx="1418" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Gybd0kf5TtgNQCfO4LZU-6" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;" parent="1" source="ckQIYyiEojRD8j7G37Uw-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="520" as="sourcePoint" />
+            <mxPoint x="88" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ourW8dnmgphSwBJkr2RU-1" value="4" style="swimlane;startSize=20;horizontal=0;html=1;fontColor=#000000;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="41" y="441" width="759" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ourW8dnmgphSwBJkr2RU-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#000000;fontFamily=Helvetica;" parent="ourW8dnmgphSwBJkr2RU-1" source="ourW8dnmgphSwBJkr2RU-3" target="ourW8dnmgphSwBJkr2RU-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ourW8dnmgphSwBJkr2RU-3" value="&lt;p class=&quot;MsoNormal&quot; align=&quot;center&quot; style=&quot;font-size: 10px;&quot;&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-size: 10px;&quot;&gt;WithdrawalFeeExchangeCurrencyAmount&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-size: 10px;&quot;&gt;(WithdrawalFee &lt;/span&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;в&lt;/span&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt; &lt;span lang=&quot;EN-US&quot; style=&quot;font-size: 10px;&quot;&gt;exchange currency)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=#000000;" parent="ourW8dnmgphSwBJkr2RU-1" vertex="1">
+          <mxGeometry x="319" y="21" width="191" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="ourW8dnmgphSwBJkr2RU-4" value="&lt;p class=&quot;MsoNormal&quot; align=&quot;center&quot; style=&quot;font-size: 10px;&quot;&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-size: 10px;&quot;&gt;UserExchangeCurrencyAmount *&lt;br style=&quot;font-size: 10px;&quot;&gt;(1-ServiceFeeCoefficient)&lt;/span&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt; - WithdrawalFeeExchangeCurrencyAmount&lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-size: 10px;&quot;&gt;&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=#000000;" parent="ourW8dnmgphSwBJkr2RU-1" vertex="1">
+          <mxGeometry x="520" y="21" width="230" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="ourW8dnmgphSwBJkr2RU-5" value="&lt;p class=&quot;MsoNormal&quot; align=&quot;center&quot; style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Конвертация&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;background-color: initial;&quot;&gt;WithdrawalFeeExchangeCurrencyAmount&lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;в&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;withdrawal&lt;span style=&quot;&quot; lang=&quot;EN-US&quot;&gt;&amp;nbsp;currency&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=#000000;" parent="ourW8dnmgphSwBJkr2RU-1" vertex="1">
+          <mxGeometry x="319" y="71" width="191" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="_JyZtFVSwh-wI9a3Z04R-2" value="Payment system fee" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;verticalAlign=middle;fontFamily=Helvetica;labelBackgroundColor=none;fillColor=#E6E6E6;" parent="ourW8dnmgphSwBJkr2RU-1" vertex="1">
+          <mxGeometry x="39" y="5.5" width="60" height="109" as="geometry" />
+        </mxCell>
+        <mxCell id="_JyZtFVSwh-wI9a3Z04R-3" value="Direct agents fee" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;verticalAlign=middle;fontFamily=Helvetica;labelBackgroundColor=none;fillColor=#E6E6E6;" parent="ourW8dnmgphSwBJkr2RU-1" vertex="1">
+          <mxGeometry x="109" y="67.5" width="60" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="_JyZtFVSwh-wI9a3Z04R-4" value="Deffered agents fee" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;verticalAlign=middle;fontFamily=Helvetica;labelBackgroundColor=none;fillColor=#E6E6E6;" parent="ourW8dnmgphSwBJkr2RU-1" vertex="1">
+          <mxGeometry x="179" y="67.5" width="60" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="_JyZtFVSwh-wI9a3Z04R-5" value="Agents fee" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;verticalAlign=middle;fontFamily=Helvetica;labelBackgroundColor=none;fillColor=#E6E6E6;" parent="ourW8dnmgphSwBJkr2RU-1" vertex="1">
+          <mxGeometry x="109" y="5.5" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_JyZtFVSwh-wI9a3Z04R-6" value="" style="endArrow=none;html=1;rounded=0;" parent="ourW8dnmgphSwBJkr2RU-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="139" y="66.5" as="sourcePoint" />
+            <mxPoint x="139" y="46.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_JyZtFVSwh-wI9a3Z04R-7" value="" style="endArrow=none;html=1;rounded=0;" parent="ourW8dnmgphSwBJkr2RU-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="209" y="66.5" as="sourcePoint" />
+            <mxPoint x="209" y="46.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ourW8dnmgphSwBJkr2RU-6" value="5" style="swimlane;startSize=20;horizontal=0;html=1;fontColor=#000000;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="41" y="561" width="759" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ourW8dnmgphSwBJkr2RU-7" value="&lt;p class=&quot;MsoNormal&quot; align=&quot;center&quot; style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Конвертация UserExchangeCurrencyAmount *&lt;/span&gt;&lt;br&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;background-color: initial;&quot;&gt;(1-ServiceFeeCoefficient)&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt; - WithdrawalFeeExchangeCurrencyAmount&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;из exchange в &lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;background-color: initial;&quot;&gt;d&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;estination &lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;background-color: initial;&quot;&gt;currency&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;и разделение на&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot; align=&quot;center&quot;&gt;&lt;span style=&quot;font-size:9.0pt&quot;&gt;&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=#000000;" parent="ourW8dnmgphSwBJkr2RU-6" vertex="1">
+          <mxGeometry x="520" y="25" width="230" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="ckQIYyiEojRD8j7G37Uw-8" value="" style="endArrow=none;html=1;rounded=0;exitX=0.466;exitY=0.026;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" parent="ourW8dnmgphSwBJkr2RU-6" source="ckQIYyiEojRD8j7G37Uw-6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="359" y="40" as="sourcePoint" />
+            <mxPoint x="409" y="-10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_JyZtFVSwh-wI9a3Z04R-9" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;" parent="ourW8dnmgphSwBJkr2RU-6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="211" y="344" as="sourcePoint" />
+            <mxPoint x="209" y="-6" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ourW8dnmgphSwBJkr2RU-8" value="6" style="swimlane;startSize=20;horizontal=0;html=1;fontColor=#000000;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="41" y="681" width="759" height="199" as="geometry" />
+        </mxCell>
+        <mxCell id="_JyZtFVSwh-wI9a3Z04R-8" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;" parent="ourW8dnmgphSwBJkr2RU-8" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="141" y="223" as="sourcePoint" />
+            <mxPoint x="139" y="-127" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ourW8dnmgphSwBJkr2RU-9" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(UserExchangeCurrencyAmount *&lt;/span&gt;&lt;br&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;background-color: initial;&quot;&gt;(1-ServiceFeeCoefficient)&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt; - WithdrawalFeeExchange&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;CurrencyAmount)) /&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;AdjustmentFactor -SwapProviderFee&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;&quot;&gt;=&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;&quot;&gt;UserDestinationCurrencyAmount (сумма, полученная пользователем в крипте)&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot; align=&quot;center&quot;&gt;&lt;span style=&quot;font-size:9.0pt&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot; align=&quot;center&quot;&gt;&lt;span style=&quot;font-size:9.0pt&quot;&gt;&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;verticalAlign=middle;fontFamily=Helvetica;fontStyle=0;fontColor=#000000;" parent="ourW8dnmgphSwBJkr2RU-8" vertex="1">
+          <mxGeometry x="600" y="10" width="150" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="ourW8dnmgphSwBJkr2RU-10" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Swap&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ProviderFee&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;в&amp;nbsp;&lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;background-color: initial;&quot;&gt;d&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;estination&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;currency&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot; align=&quot;center&quot;&gt;&lt;span style=&quot;font-size:9.0pt&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot; align=&quot;center&quot;&gt;&lt;span style=&quot;font-size:9.0pt&quot;&gt;&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=#000000;" parent="ourW8dnmgphSwBJkr2RU-8" vertex="1">
+          <mxGeometry x="520" y="10" width="70" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="ourW8dnmgphSwBJkr2RU-11" value="3" style="swimlane;startSize=20;horizontal=0;html=1;fontColor=#000000;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="41" y="321" width="759" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ourW8dnmgphSwBJkr2RU-12" value="&lt;p class=&quot;MsoNormal&quot; align=&quot;center&quot;&gt;&lt;span style=&quot;font-size: 9pt;&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;Service fee&lt;/span&gt;&lt;span lang=&quot;EN-US&quot;&gt; = UserBaseCurrencyAmount * ServiceFeeCoefficient&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=#000000;" parent="ourW8dnmgphSwBJkr2RU-11" vertex="1">
+          <mxGeometry x="40" y="16" width="250" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="ourW8dnmgphSwBJkr2RU-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontColor=#000000;" parent="ourW8dnmgphSwBJkr2RU-11" source="ourW8dnmgphSwBJkr2RU-14" target="ourW8dnmgphSwBJkr2RU-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ourW8dnmgphSwBJkr2RU-14" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size:9.0pt;mso-ansi-language:EN-US&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;UserBaseCurrencyAmount*(1-ServiceFeeCoefficient)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=#000000;" parent="ourW8dnmgphSwBJkr2RU-11" vertex="1">
+          <mxGeometry x="320" y="17" width="430" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="ourW8dnmgphSwBJkr2RU-15" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font color=&quot;#ea6b66&quot;&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-size:9.0pt;mso-ansi-language:&lt;br/&gt;EN-US&quot;&gt;Конвертация UserBaseCurrencyAmount * (1-ServiceFeeCoefficient) из base&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size:9.0pt&quot;&gt;в&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size:9.0pt;mso-ansi-language:&lt;br/&gt;EN-US&quot;&gt;&lt;font color=&quot;#ea6b66&quot;&gt; &lt;/font&gt;&lt;span lang=&quot;EN-US&quot;&gt;&lt;font color=&quot;#ea6b66&quot;&gt;exchange currency&lt;/font&gt;&amp;nbsp;и разделение на&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=#000000;" parent="ourW8dnmgphSwBJkr2RU-11" vertex="1">
+          <mxGeometry x="320" y="65" width="430" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="ourW8dnmgphSwBJkr2RU-16" value="2" style="swimlane;startSize=20;horizontal=0;html=1;fontColor=#000000;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="41" y="201" width="759" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ourW8dnmgphSwBJkr2RU-17" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Конвертация UserSourceCurrencyAmount в payment system&amp;nbsp;currency (&lt;span style=&quot;text-align: left;&quot;&gt;UserPaymentSystemCurrencyAmount&lt;/span&gt;)&amp;nbsp;и затем в base currency (&lt;span style=&quot;text-align: left;&quot;&gt;UserBaseCurrencyAmount&lt;/span&gt;) и разделение на&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=#000000;" parent="ourW8dnmgphSwBJkr2RU-16" vertex="1">
+          <mxGeometry x="40" y="39.5" width="710" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="ourW8dnmgphSwBJkr2RU-18" value="1" style="swimlane;startSize=20;horizontal=0;html=1;fontColor=#000000;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="41" y="81" width="760" height="120" as="geometry">
+            <mxRectangle x="41" y="81" width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gybd0kf5TtgNQCfO4LZU-1" value="inflows" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=top;" parent="ourW8dnmgphSwBJkr2RU-18" vertex="1">
+          <mxGeometry x="20" width="740" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ourW8dnmgphSwBJkr2RU-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontColor=#000000;" parent="ourW8dnmgphSwBJkr2RU-18" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="398" y="159" as="targetPoint" />
+            <mxPoint x="398" y="80" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ourW8dnmgphSwBJkr2RU-20" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Пользователь внес в виджет&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;font-size: 12px; text-wrap: nowrap;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;сумму фиатной валюты в source currency (&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;UserSourceCurrencyAmount)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=#000000;" parent="ourW8dnmgphSwBJkr2RU-18" vertex="1">
+          <mxGeometry x="40" y="39" width="700" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="ourW8dnmgphSwBJkr2RU-21" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Forward-c&lt;/span&gt;хема денежных потоков по транзакции&lt;/font&gt;&lt;/h1&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;b&gt;&lt;span style=&quot;&quot;&gt;восстановлена на основе формул&lt;/span&gt;&lt;/b&gt;&lt;font style=&quot;background-color: initial; font-size: 9px;&quot;&gt;&lt;b&gt;&amp;nbsp;с листа «ForwardUserAmountsCalc3» гугл-таблицы «&lt;/b&gt;&lt;a href=&quot;https://docs.google.com/spreadsheets/d/1FeZcCx6ATETNPlvrDPwgKaPnJgs36vABzm52tFlCbQA/edit?pli=1#gid=356043838&quot;&gt;&lt;b&gt;Cryptostorm Operation data model (Fiat -_ BTC)&lt;/b&gt;&lt;/a&gt;&lt;/font&gt;&lt;b style=&quot;background-color: initial; font-size: 9px;&quot;&gt;»&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;align=left;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="41" y="6" width="759" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="ourW8dnmgphSwBJkr2RU-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontColor=#000000;" parent="1" source="ourW8dnmgphSwBJkr2RU-17" target="ourW8dnmgphSwBJkr2RU-14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="441" y="300" />
+              <mxPoint x="621" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ourW8dnmgphSwBJkr2RU-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontColor=#000000;" parent="1" source="ourW8dnmgphSwBJkr2RU-17" target="ourW8dnmgphSwBJkr2RU-12" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="436" y="300" />
+              <mxPoint x="256" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ourW8dnmgphSwBJkr2RU-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontColor=#000000;" parent="1" source="ourW8dnmgphSwBJkr2RU-15" target="ourW8dnmgphSwBJkr2RU-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ourW8dnmgphSwBJkr2RU-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.462;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontColor=#000000;" parent="1" source="ourW8dnmgphSwBJkr2RU-15" target="ourW8dnmgphSwBJkr2RU-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ourW8dnmgphSwBJkr2RU-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontColor=#000000;" parent="1" source="ourW8dnmgphSwBJkr2RU-4" target="ourW8dnmgphSwBJkr2RU-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ourW8dnmgphSwBJkr2RU-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontColor=#000000;" parent="1" source="ourW8dnmgphSwBJkr2RU-7" target="ourW8dnmgphSwBJkr2RU-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ourW8dnmgphSwBJkr2RU-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontColor=#000000;" parent="1" source="ourW8dnmgphSwBJkr2RU-7" target="ourW8dnmgphSwBJkr2RU-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ourW8dnmgphSwBJkr2RU-29" value="&lt;p style=&quot;text-indent:-18.0pt;mso-list:l0 level1 lfo1&quot; class=&quot;MsoListParagraphCxSpFirst&quot;&gt;&lt;/p&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Сумма, причитающаяся пользователю в &lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;background-color: initial;&quot;&gt;destination&lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;background-color: initial;&quot;&gt; &lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;background-color: initial;&quot;&gt;currency,&lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;background-color: initial;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;получается из внесенной пользователем &lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;background-color: initial;&quot;&gt;source&lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;background-color: initial;&quot;&gt; &lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;background-color: initial;&quot;&gt;currency&lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;background-color: initial;&quot;&gt; &lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;background-color: initial;&quot;&gt;amount&lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;background-color: initial;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;путем последовательной конвертации source в payment system,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;payment system в&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;base, base в exchange, exchange в &lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;background-color: initial;&quot;&gt;destination&lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;/ swap currency&amp;nbsp;(+&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;swap в destination&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; lang=&quot;EN-US&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; lang=&quot;EN-US&quot;&gt;currency -&amp;nbsp;&lt;/span&gt;в случае свопа), а также&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;background-color: initial; text-indent: -18pt;&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;ul style=&quot;font-size: 14px;&quot;&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; text-indent: -18pt;&quot;&gt;вычета&lt;/span&gt;&lt;span style=&quot;background-color: initial; text-indent: -18pt;&quot;&gt;&amp;nbsp;&quot;&lt;span lang=&quot;EN-US&quot;&gt;Fixed&quot; service fee (включая Payment system и Agents fee);&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; text-indent: -18pt;&quot;&gt;вычета&lt;/span&gt;&lt;span style=&quot;background-color: initial; text-indent: -18pt;&quot;&gt;&amp;nbsp;s&lt;span lang=&quot;EN-US&quot;&gt;wap provider fee;&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;div style=&quot;background-color: initial; text-indent: -18pt; display: inline !important;&quot;&gt;&lt;span style=&quot;background-color: initial; text-indent: -18pt;&quot;&gt;корректировки на оценку &lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;background-color: initial; text-indent: -18pt;&quot;&gt;AdjustmentFactor&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;;&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; text-indent: -18pt;&quot;&gt;вычета&lt;/span&gt;&lt;span style=&quot;background-color: initial; text-indent: -18pt;&quot;&gt; &lt;span lang=&quot;EN-US&quot;&gt;withdrawal fee&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial; text-indent: -18pt;&quot;&gt;.&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Таким образом, курс source to destination&amp;nbsp;&lt;/span&gt;currency&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;для пользователя зависит от курсов конвертации&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;source в payment system,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;payment system в&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;base, base в exchange, exchange в&amp;nbsp;&lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;background-color: initial;&quot;&gt;destination&lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;background-color: initial;&quot;&gt;currency, а также размеров комиссий и величины&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 14px; text-indent: -24px;&quot;&gt;аdjustment factor&lt;/span&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;&lt;p style=&quot;text-indent:-18.0pt;mso-list:l0 level1 lfo1&quot; class=&quot;MsoListParagraphCxSpFirst&quot;&gt;&lt;span style=&quot;text-indent: -18pt; background-color: initial; font-size: 12pt;&quot;&gt;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="37" y="1089" width="789" height="187" as="geometry" />
+        </mxCell>
+        <mxCell id="ourW8dnmgphSwBJkr2RU-30" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontColor=#000000;fontFamily=Helvetica;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20" y="81" as="sourcePoint" />
+            <mxPoint x="20" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gybd0kf5TtgNQCfO4LZU-3" value="outflows" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=center;verticalAlign=bottom;" parent="1" vertex="1">
+          <mxGeometry x="40" y="896" width="760" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="ckQIYyiEojRD8j7G37Uw-1" value="Payment system fee" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;verticalAlign=middle;fontFamily=Helvetica;labelBackgroundColor=none;fillColor=#E6E6E6;" parent="1" vertex="1">
+          <mxGeometry x="60" y="900" width="60" height="109" as="geometry" />
+        </mxCell>
+        <mxCell id="ckQIYyiEojRD8j7G37Uw-2" value="Direct agents fee" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;verticalAlign=middle;fontFamily=Helvetica;labelBackgroundColor=none;fillColor=#E6E6E6;" parent="1" vertex="1">
+          <mxGeometry x="130" y="962" width="60" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="ckQIYyiEojRD8j7G37Uw-3" value="Deffered agents fee" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;verticalAlign=middle;fontFamily=Helvetica;labelBackgroundColor=none;fillColor=#E6E6E6;" parent="1" vertex="1">
+          <mxGeometry x="200" y="962" width="60" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="ckQIYyiEojRD8j7G37Uw-4" value="Agents fee" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;verticalAlign=middle;fontFamily=Helvetica;labelBackgroundColor=none;fillColor=#E6E6E6;" parent="1" vertex="1">
+          <mxGeometry x="130" y="900" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ckQIYyiEojRD8j7G37Uw-6" value="&lt;p class=&quot;MsoNormal&quot; align=&quot;center&quot; style=&quot;&quot;&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;background-color: initial;&quot;&gt;WithdrawalFeeExchangeCurrencyAmount&lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;в&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;withdrawal&lt;span style=&quot;&quot; lang=&quot;EN-US&quot;&gt;&amp;nbsp;fee currency&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="360" y="900" width="191" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ckQIYyiEojRD8j7G37Uw-9" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Swap&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ProviderFee&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;в&amp;nbsp;&lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;background-color: initial;&quot;&gt;d&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;estination&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;currency&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot; align=&quot;center&quot;&gt;&lt;span style=&quot;font-size:9.0pt&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot; align=&quot;center&quot;&gt;&lt;span style=&quot;font-size:9.0pt&quot;&gt;&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="560" y="900.5" width="70" height="109.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ckQIYyiEojRD8j7G37Uw-10" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;&quot;&gt;UserDestinationCurrencyAmount (сумма, полученная пользователем в криптовалюте destination currency)&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot; align=&quot;center&quot;&gt;&lt;span style=&quot;font-size:9.0pt&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot; align=&quot;center&quot;&gt;&lt;span style=&quot;font-size:9.0pt&quot;&gt;&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;verticalAlign=middle;fontFamily=Helvetica;fontStyle=0;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="640" y="900" width="150" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ckQIYyiEojRD8j7G37Uw-13" value="" style="endArrow=none;html=1;rounded=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="900" as="sourcePoint" />
+            <mxPoint x="600" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ckQIYyiEojRD8j7G37Uw-15" value="" style="endArrow=none;html=1;rounded=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="719" y="902" as="sourcePoint" />
+            <mxPoint x="719" y="862" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rJCeYN9GpP0nehGkrjqz-1" value="&lt;p style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 9px; background-color: initial;&quot;&gt;Подробное описание расчета комиссий, выделенных серым, приведено&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font size=&quot;1&quot;&gt;&amp;nbsp;в файле &quot;2. Описание комбинированного forward и reverse расчета гугл-таблицы Cryptostorm Operation data model (Fiat -_ BTC).drawio&quot;.&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-size: 9pt;&quot;&gt;&lt;/span&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;align=left;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="46" y="1030" width="750" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="Aqv0bDYZZ4LBHwLjsN4T-1" value="" style="endArrow=none;html=1;rounded=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="961" as="sourcePoint" />
+            <mxPoint x="160" y="941" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Aqv0bDYZZ4LBHwLjsN4T-2" value="" style="endArrow=none;html=1;rounded=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="961" as="sourcePoint" />
+            <mxPoint x="230" y="941" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cugatnh523FpK4BUHT52-1" value="&lt;span style=&quot;font-size: 9px;&quot;&gt;Нужно ли здесь добавлять 3 ветки по источникам&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 9px; background-color: initial;&quot;&gt;криптовалюты для транзакции:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 9px; background-color: initial;&quot;&gt;1. внутренние источники;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 9px; background-color: initial;&quot;&gt;2. swap;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 9px; background-color: initial;&quot;&gt;3. биржа и осуществлять конвертацию в exchange currency только для ветки 3.биржа?&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#EA6B66;" parent="1" vertex="1">
+          <mxGeometry x="796" y="350" width="154" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="hEEvZ9iBR32x_OFHVR1W" name="3.Reverse_by_steps">
+    <mxGraphModel dx="2245" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SxzHgPUijf5SKm688CdB-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontColor=#000000;" parent="1" source="SxzHgPUijf5SKm688CdB-54" target="SxzHgPUijf5SKm688CdB-66" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="110" y="368" />
+              <mxPoint x="110" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SxzHgPUijf5SKm688CdB-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontFamily=Helvetica;fontColor=#000000;" parent="1" source="SxzHgPUijf5SKm688CdB-28" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-179" y="635" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-459" y="605" />
+              <mxPoint x="-179" y="605" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SxzHgPUijf5SKm688CdB-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.405;entryY=-0.05;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fontFamily=Helvetica;fontColor=#000000;" parent="1" source="SxzHgPUijf5SKm688CdB-43" target="SxzHgPUijf5SKm688CdB-45" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-460" y="805" />
+              <mxPoint x="-174" y="805" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SxzHgPUijf5SKm688CdB-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontColor=#000000;" parent="1" source="SxzHgPUijf5SKm688CdB-22" target="SxzHgPUijf5SKm688CdB-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SxzHgPUijf5SKm688CdB-5" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;font-size: 7px;&quot;&gt;32.CorrectedDestinationCurrencyAmount*&lt;br&gt;18.ExchangeToDestinationCurrencyRate&lt;br&gt;&lt;/p&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontColor=#000000;" parent="SxzHgPUijf5SKm688CdB-4" vertex="1" connectable="0">
+          <mxGeometry x="0.1333" y="3" relative="1" as="geometry">
+            <mxPoint x="-3" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SxzHgPUijf5SKm688CdB-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontFamily=Helvetica;fontColor=#000000;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-520" y="217" as="sourcePoint" />
+            <mxPoint x="-260" y="430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-520" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SxzHgPUijf5SKm688CdB-7" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-485" y="80" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SxzHgPUijf5SKm688CdB-8" value="start" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=7;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-500" y="100" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SxzHgPUijf5SKm688CdB-9" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 14px;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;Исходные данные&amp;nbsp;&lt;/b&gt;&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px; font-size: 9px;&quot;&gt;распарсены из&amp;nbsp;&lt;span style=&quot;background-color: initial; font-size: 9px;&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;json&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 9px;&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 9px;&quot;&gt;столбца таблицы&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;span lang=&quot;EN-US&quot;&gt;fiat_crypto_converted_operations_additional_info,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;&quot; lang=&quot;EN-US&quot;&gt;dwh&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;align=left;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-815" y="10.5" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SxzHgPUijf5SKm688CdB-10" value="&lt;ol style=&quot;font-size: 9px;&quot;&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;SourceCurrency&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;SourceCurrencyDecimalDigits&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;DestinationCurrency&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;DestinationCurrencyDecimalDigits&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;BaseCurrency&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;BaseCurrencyDecimalDigits&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;PaymentSystemCurrency&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;PaymentSystemCurrencyDecimalDigits&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ExchangeCurrency&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ExchangeCurrencyDecimalDigits&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;WithdrawalFeeCurrency&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;WithdrawalFeeCurrencyDecimalDigits&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;SwapCurrency&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;SwapCurrencyDecimalDigits&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;SourceToPaymentSystemCurrencyRate&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;PaymentSystemToBaseCurrencyRate&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ExchangeToBaseCurrencyRate&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ExchangeToDestinationCurrencyRate&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ExchangeToWithdrawalFeeCurrencyRate&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;SwapToDestinationCurrencyRate&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;AdjustmentFactor&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ServiceFeeCoefficient&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;WithdrawalFeeType&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;WithdrawalFee&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;SwapProviderFee&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;UserDestinationCurrencyAmount&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;align=left;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-815" y="60" width="250" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="SxzHgPUijf5SKm688CdB-11" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Reverse-в&lt;/span&gt;ычисления на основе исходных данных&lt;/font&gt;&lt;/h1&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;b&gt;&lt;span style=&quot;&quot;&gt;и формул с листа «ReverseUserAmountsCalc3» гугл-таблицы «&lt;/span&gt;&lt;/b&gt;&lt;span style=&quot;&quot;&gt;&lt;a href=&quot;https://docs.google.com/spreadsheets/d/1FeZcCx6ATETNPlvrDPwgKaPnJgs36vABzm52tFlCbQA/edit?pli=1#gid=356043838&quot;&gt;&lt;b&gt;&lt;span style=&quot;&quot;&gt;Cryptostorm Operation data model (Fiat -_ BTC)&lt;/span&gt;&lt;/b&gt;&lt;/a&gt;&lt;/span&gt;&lt;b&gt;&lt;span style=&quot;&quot;&gt;»&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;align=left;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-515" y="10.5" width="1035" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SxzHgPUijf5SKm688CdB-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontFamily=Helvetica;fontColor=#000000;" parent="1" source="SxzHgPUijf5SKm688CdB-18" target="SxzHgPUijf5SKm688CdB-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SxzHgPUijf5SKm688CdB-13" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;font-size: 7px;&quot;&gt;26.UserDestinationCurrencyAmount/&lt;br&gt;(1-25.SwapProviderFee)-&lt;br&gt;26.UserDestinationCurrencyAmount&lt;br&gt;&lt;/p&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontColor=#000000;" parent="SxzHgPUijf5SKm688CdB-12" vertex="1" connectable="0">
+          <mxGeometry x="0.1158" y="2" relative="1" as="geometry">
+            <mxPoint x="3" y="-39" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SxzHgPUijf5SKm688CdB-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontColor=#000000;" parent="1" source="SxzHgPUijf5SKm688CdB-18" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-320" y="217" as="sourcePoint" />
+            <mxPoint x="-260" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-330" y="217" />
+              <mxPoint x="-330" y="440" />
+              <mxPoint x="-260" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SxzHgPUijf5SKm688CdB-15" value="&lt;span style=&quot;font-size: 7px;&quot;&gt;(26.UserDestinationCurrencyAmount+&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 7px;&quot;&gt;27.SwapProviderFeeDestinationCurrencyAmount)&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 7px;&quot;&gt;*21.AdjustmentFactor&lt;/span&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" parent="SxzHgPUijf5SKm688CdB-14" vertex="1" connectable="0">
+          <mxGeometry x="0.1325" y="-1" relative="1" as="geometry">
+            <mxPoint x="-109" y="-37" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SxzHgPUijf5SKm688CdB-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontColor=#000000;" parent="1" source="SxzHgPUijf5SKm688CdB-18" target="SxzHgPUijf5SKm688CdB-51" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="20" y="207" />
+              <mxPoint x="20" y="247" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SxzHgPUijf5SKm688CdB-17" value="&lt;p style=&quot;font-size: 7px;&quot; class=&quot;MsoNormal&quot;&gt;26.UserDestinationCurrencyAmount*&lt;br&gt;18.ExchangeToDestinationCurrencyRate&lt;br&gt;&lt;/p&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontColor=#000000;" parent="SxzHgPUijf5SKm688CdB-16" vertex="1" connectable="0">
+          <mxGeometry x="0.0625" y="2" relative="1" as="geometry">
+            <mxPoint x="1" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SxzHgPUijf5SKm688CdB-18" value="&lt;span style=&quot;font-size: 9px;&quot;&gt;26.UserDestinationCurrencyAmount&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;align=left;verticalAlign=middle;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-260" y="197" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SxzHgPUijf5SKm688CdB-19" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;27.SwapProviderFeeDestinationCurrencyAmount&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;align=left;verticalAlign=middle;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-565" y="197" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SxzHgPUijf5SKm688CdB-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;fontColor=#000000;" parent="1" source="SxzHgPUijf5SKm688CdB-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-160" y="197" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-160" y="95" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oWB-Zs57L2vGXLPTBIrh-3" value="&lt;div style=&quot;text-align: left; font-size: 7px;&quot;&gt;Полученная в результате транзакции пользователем сумма&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 7px;&quot;&gt;в криптовалюте destination currency (26.UserDestinationCurrencyAmount)&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;fontFamily=Helvetica;" parent="SxzHgPUijf5SKm688CdB-20" vertex="1" connectable="0">
+          <mxGeometry x="-0.3042" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SxzHgPUijf5SKm688CdB-22" value="&lt;p style=&quot;&quot; class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;32.CorrectedDestinationCurrencyAmount&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;align=left;verticalAlign=middle;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-259" y="422" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SxzHgPUijf5SKm688CdB-23" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;Вычисление&amp;nbsp;&lt;span style=&quot;text-align: left;&quot;&gt;Swap provider fee&lt;/span&gt;&amp;nbsp;в destination currency&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=7;fontStyle=2;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-565" y="217" width="205" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SxzHgPUijf5SKm688CdB-24" value="&lt;p class=&quot;MsoNormal&quot; align=&quot;center&quot;&gt;&lt;span style=&quot;&quot;&gt;Корректировка&lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;span lang=&quot;EN-US&quot;&gt;UserDestinationCurrencyAmount&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;на&lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;&quot;&gt; AdjustmentFactor &lt;/span&gt;&lt;span style=&quot;&quot;&gt;и&lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt;добавление&lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;&quot;&gt; Swap provider fee&lt;/span&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=7;fontStyle=2;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-259" y="442" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SxzHgPUijf5SKm688CdB-25" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;33.NetExchangeCurrencyAmount&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;align=left;verticalAlign=middle;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-259" y="541" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SxzHgPUijf5SKm688CdB-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontFamily=Helvetica;fontColor=#000000;" parent="1" target="SxzHgPUijf5SKm688CdB-28" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-259" y="551" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SxzHgPUijf5SKm688CdB-27" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-bottom: 0cm; font-size: 7px;&quot;&gt;&lt;b&gt;if &lt;/b&gt;23.WithdrawalFeeType=&quot;Fixed&quot;:&lt;br&gt;24.WithdrawalFee*19.ExchangeToWithdrawalFeeCurrencyRate&amp;nbsp;&lt;b&gt;else:&lt;/b&gt;&lt;br&gt;&lt;span lang=&quot;EN-US&quot;&gt;33.NetExchangeCurrencyAmount/(1-24.WithdrawalFee)-33.&lt;/span&gt;&lt;span style=&quot;&quot;&gt;NetExchangeCurrencyAmount&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontColor=#000000;" parent="SxzHgPUijf5SKm688CdB-26" vertex="1" connectable="0">
+          <mxGeometry x="0.1158" y="2" relative="1" as="geometry">
+            <mxPoint x="-2" y="-38" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SxzHgPUijf5SKm688CdB-28" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;34.WithdrawalFeeExchangeCurrencyAmount&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;align=left;verticalAlign=middle;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-564" y="541" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SxzHgPUijf5SKm688CdB-29" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;Вычисление Withdrawal&amp;nbsp;&lt;span style=&quot;text-align: left;&quot;&gt;fee&lt;/span&gt;&amp;nbsp;в exchenge currency&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=7;fontStyle=2;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-564" y="561" width="205" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SxzHgPUijf5SKm688CdB-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontColor=#000000;" parent="1" source="SxzHgPUijf5SKm688CdB-32" target="SxzHgPUijf5SKm688CdB-33" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SxzHgPUijf5SKm688CdB-31" value="&lt;span style=&quot;text-align: left; text-wrap: wrap; background-color: rgb(251, 251, 251); font-size: 7px;&quot;&gt;&lt;font style=&quot;font-size: 7px;&quot;&gt;33.NetExchangeCurrencyAmount+&lt;/font&gt;&lt;/span&gt;&lt;div style=&quot;font-size: 7px;&quot;&gt;&lt;span style=&quot;text-align: left; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;&lt;font style=&quot;font-size: 7px;&quot;&gt;34.WithdrawalFeeExchangeCurrencyAmount&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 9px; text-align: left; text-wrap: wrap; background-color: rgb(251, 251, 251);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontColor=#000000;" parent="SxzHgPUijf5SKm688CdB-30" vertex="1" connectable="0">
+          <mxGeometry x="0.0741" y="2" relative="1" as="geometry">
+            <mxPoint x="-7" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SxzHgPUijf5SKm688CdB-32" value="&lt;p class=&quot;MsoNormal&quot; align=&quot;center&quot;&gt;&lt;font style=&quot;&quot;&gt;Конвертация&amp;nbsp;&lt;span style=&quot;text-align: left; background-color: initial;&quot;&gt;CorrectedDestinationCurrencyAmount в exchange currency&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=7;fontStyle=2;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-259" y="561" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SxzHgPUijf5SKm688CdB-33" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;35.GrossExchangeCurrencyAmount&lt;/font&gt;&lt;span style=&quot;font-size: 9pt;&quot;&gt;&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;align=left;verticalAlign=middle;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-259" y="635" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SxzHgPUijf5SKm688CdB-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontColor=#000000;" parent="1" source="SxzHgPUijf5SKm688CdB-36" target="SxzHgPUijf5SKm688CdB-39" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SxzHgPUijf5SKm688CdB-35" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;font-size: 7px;&quot;&gt;35.GrossExchangeCurrencyAmount/&lt;br&gt;17.ExchangeToBaseCurrencyRate&lt;br&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot; style=&quot;font-size: 7px;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-size: 9pt;&quot;&gt;&lt;/span&gt;&lt;/p&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontColor=#000000;" parent="SxzHgPUijf5SKm688CdB-34" vertex="1" connectable="0">
+          <mxGeometry x="-0.0571" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SxzHgPUijf5SKm688CdB-36" value="&lt;p class=&quot;MsoNormal&quot; align=&quot;center&quot;&gt;Прибавление к&amp;nbsp;&lt;span style=&quot;text-align: left; background-color: initial;&quot;&gt;NetExchangeCurrencyAmount&amp;nbsp; комиссии&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Withdrawal&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; text-align: left;&quot;&gt;fee&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;в exchenge currency&lt;/span&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=7;fontStyle=2;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-259" y="655" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SxzHgPUijf5SKm688CdB-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontColor=#000000;" parent="1" source="SxzHgPUijf5SKm688CdB-39" target="SxzHgPUijf5SKm688CdB-45" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SxzHgPUijf5SKm688CdB-38" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 7px;&quot;&gt;36.NetUserBaseCurrencyAmount+&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 7px;&quot;&gt;&lt;div style=&quot;text-align: center;&quot;&gt;37. ServiceFee&lt;/div&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontColor=#000000;" parent="SxzHgPUijf5SKm688CdB-37" vertex="1" connectable="0">
+          <mxGeometry x="0.0571" y="4" relative="1" as="geometry">
+            <mxPoint x="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SxzHgPUijf5SKm688CdB-39" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;36.NetUserBaseCurrencyAmount&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;align=left;verticalAlign=middle;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-259" y="745" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SxzHgPUijf5SKm688CdB-40" value="&lt;p class=&quot;MsoNormal&quot; align=&quot;center&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 7px;&quot;&gt;Конвертация GrossExchangeCurrencyAmount из exchange в base currency&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=7;fontStyle=2;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-259" y="767" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SxzHgPUijf5SKm688CdB-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontFamily=Helvetica;fontColor=#000000;" parent="1" target="SxzHgPUijf5SKm688CdB-43" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-260" y="755" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SxzHgPUijf5SKm688CdB-42" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;font-size: 7px;&quot;&gt;&lt;span style=&quot;&quot;&gt;36.NetUserBaseCurrencyAmount/&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;&quot;&gt;(1-22.ServiceFeeCoefficient&lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;&quot;&gt;) -&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;&quot;&gt;36.NetUserBaseCurrencyAmount&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontColor=#000000;" parent="SxzHgPUijf5SKm688CdB-41" vertex="1" connectable="0">
+          <mxGeometry x="0.1158" y="2" relative="1" as="geometry">
+            <mxPoint x="3" y="-39" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SxzHgPUijf5SKm688CdB-43" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;37. ServiceFee&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;align=left;verticalAlign=middle;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-565" y="745" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SxzHgPUijf5SKm688CdB-44" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;Вычисление &quot;Fixed&quot; service fee в base currency&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=7;fontStyle=2;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-565" y="765" width="205" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SxzHgPUijf5SKm688CdB-45" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;38.UserBaseCurrencyAmount&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;align=left;verticalAlign=middle;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-259" y="835" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SxzHgPUijf5SKm688CdB-46" value="&lt;p align=&quot;center&quot; class=&quot;MsoNormal&quot;&gt;Вычисление в&lt;span style=&quot;background-color: initial;&quot;&gt;несенной в виджет пользователем&amp;nbsp;суммы фиатной валюты (&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;UserCurrencyAmount) в base, payment system и source currency&lt;/span&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=7;fontStyle=2;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-259" y="941" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SxzHgPUijf5SKm688CdB-47" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;39.UserPaymentSystemCurrencyAmount&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;align=left;verticalAlign=middle;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-259" y="877" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SxzHgPUijf5SKm688CdB-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontFamily=Helvetica;fontColor=#000000;" parent="1" source="SxzHgPUijf5SKm688CdB-50" target="SxzHgPUijf5SKm688CdB-66" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SxzHgPUijf5SKm688CdB-49" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;font-size: 7px;&quot;&gt;МАКС(40.UserSourceCurrencyAmount-&lt;br&gt;31.UserDestinationSourceCurrencyAmount;0)&lt;br&gt;&lt;/p&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontColor=#000000;" parent="SxzHgPUijf5SKm688CdB-48" vertex="1" connectable="0">
+          <mxGeometry x="0.7718" y="-1" relative="1" as="geometry">
+            <mxPoint x="-30" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SxzHgPUijf5SKm688CdB-50" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;40.UserSourceCurrencyAmount&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;align=left;verticalAlign=middle;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-259" y="917" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SxzHgPUijf5SKm688CdB-51" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;28.UserDestinationExchangeCurrencyAmount&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;align=left;verticalAlign=middle;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-260" y="237" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SxzHgPUijf5SKm688CdB-52" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;29.UserDestinationBaseCurrencyAmount&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;align=left;verticalAlign=middle;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-260" y="276" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SxzHgPUijf5SKm688CdB-53" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;30.UserDestinationPaymentSystemCurrencyAmount&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;align=left;verticalAlign=middle;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-260" y="316" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SxzHgPUijf5SKm688CdB-54" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;31.UserDestinationSourceCurrencyAmount&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;align=left;verticalAlign=middle;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-260" y="358" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SxzHgPUijf5SKm688CdB-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontColor=#000000;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-40" y="247" as="sourcePoint" />
+            <mxPoint x="-40" y="287" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="20" y="247" />
+              <mxPoint x="20" y="287" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SxzHgPUijf5SKm688CdB-56" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;font-size: 7px;&quot;&gt;&lt;/p&gt;&lt;div style=&quot;text-align: left; font-size: 7px;&quot;&gt;&lt;font style=&quot;font-size: 7px;&quot;&gt;28.UserDestinationExchangeCurrencyAmount/&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 7px;&quot;&gt;&lt;font style=&quot;font-size: 7px;&quot;&gt;17.ExchangeTo&lt;span lang=&quot;EN-US&quot;&gt;Base&lt;/span&gt;CurrencyRate&lt;/font&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontColor=#000000;" parent="SxzHgPUijf5SKm688CdB-55" vertex="1" connectable="0">
+          <mxGeometry x="-0.05" y="-2" relative="1" as="geometry">
+            <mxPoint x="79" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SxzHgPUijf5SKm688CdB-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontColor=#000000;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-40" y="287" as="sourcePoint" />
+            <mxPoint x="-40" y="327" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="20" y="287" />
+              <mxPoint x="20" y="327" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SxzHgPUijf5SKm688CdB-58" value="&lt;p style=&quot;font-size: 7px;&quot; class=&quot;MsoNormal&quot;&gt;29.UserDestinationBaseCurrencyAmount*&lt;br&gt;16.PaymentSystemToBaseCurrencyRate&lt;br&gt;&lt;/p&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontColor=#000000;" parent="SxzHgPUijf5SKm688CdB-57" vertex="1" connectable="0">
+          <mxGeometry x="0.05" relative="1" as="geometry">
+            <mxPoint x="3" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SxzHgPUijf5SKm688CdB-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontColor=#000000;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-40" y="327" as="sourcePoint" />
+            <mxPoint x="-40" y="367" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="20" y="327" />
+              <mxPoint x="20" y="367" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SxzHgPUijf5SKm688CdB-60" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;font-size: 7px;&quot;&gt;&lt;/p&gt;&lt;div style=&quot;text-align: left; font-size: 7px;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 7px;&quot;&gt;30.UserDestinationPaymentSystemCurrencyAmount*&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 7px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 7px;&quot;&gt;15.SourceToPaymentSystemCurrencyRate&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;p&gt;&lt;/p&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontColor=#000000;" parent="SxzHgPUijf5SKm688CdB-59" vertex="1" connectable="0">
+          <mxGeometry x="0.0125" y="4" relative="1" as="geometry">
+            <mxPoint x="81" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SxzHgPUijf5SKm688CdB-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontColor=#000000;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-49" y="845" as="sourcePoint" />
+            <mxPoint x="-49" y="885" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="11" y="845" />
+              <mxPoint x="11" y="885" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SxzHgPUijf5SKm688CdB-62" value="&lt;p style=&quot;font-size: 7px;&quot; class=&quot;MsoNormal&quot;&gt;38.UserBaseCurrencyAmount*&lt;br&gt;16.PaymentSystemToBaseCurrencyRate&lt;br&gt;&lt;/p&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontColor=#000000;" parent="SxzHgPUijf5SKm688CdB-61" vertex="1" connectable="0">
+          <mxGeometry y="1" relative="1" as="geometry">
+            <mxPoint x="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SxzHgPUijf5SKm688CdB-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontColor=#000000;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-49" y="885" as="sourcePoint" />
+            <mxPoint x="-49" y="925" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="11" y="885" />
+              <mxPoint x="11" y="925" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SxzHgPUijf5SKm688CdB-64" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;font-size: 7px;&quot;&gt;39.UserPaymentSystemCurrencyAmount*&lt;br&gt;15.SourceToPaymentSystemCurrencyRate&lt;br&gt;&lt;/p&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontColor=#000000;" parent="SxzHgPUijf5SKm688CdB-63" vertex="1" connectable="0">
+          <mxGeometry y="-4" relative="1" as="geometry">
+            <mxPoint x="73" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SxzHgPUijf5SKm688CdB-65" value="&lt;p class=&quot;MsoNormal&quot; align=&quot;center&quot;&gt;Вычисление п&lt;i style=&quot;background-color: initial;&quot;&gt;олученной пользователем суммы&lt;/i&gt;&lt;i style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;в криптовалюте (&lt;/i&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;UserDestinationCurrencyAmount) в destination, exchange, base, payment system и source currency&lt;/span&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=7;fontStyle=2;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-259" y="381" width="219" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SxzHgPUijf5SKm688CdB-66" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;41.ServiceFeeSourceCurrencyAmount&amp;nbsp;&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=7;align=left;verticalAlign=middle;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="270" y="530" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SxzHgPUijf5SKm688CdB-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontColor=#000000;" parent="1" source="SxzHgPUijf5SKm688CdB-66" target="SxzHgPUijf5SKm688CdB-68" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="540" as="targetPoint" />
+            <mxPoint x="480" y="540" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SxzHgPUijf5SKm688CdB-68" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="510" y="525" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SxzHgPUijf5SKm688CdB-69" value="&lt;span style=&quot;font-size: 7px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;end&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=center;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="500" y="551" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SxzHgPUijf5SKm688CdB-70" value="&lt;i&gt;&lt;font style=&quot;font-size: 7px;&quot;&gt;Вычисление Service fee в source currency =&amp;nbsp;&lt;font style=&quot;font-size: 7px;&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;/font&gt;Внесенная в виджет пользователем&amp;nbsp;сумма фиатной валюты (в source currency) за вычетом&amp;nbsp;полученной пользователем суммы&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;в криптовалюте (&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font&gt;&lt;span style=&quot;text-align: left;&quot;&gt;в source currency)&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=7;fontStyle=0;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="270" y="555" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="2IHQzox2Sv4t_49M0yEX-1" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 14px;&quot;&gt;Комментарии&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;align=left;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-809" y="414" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4eDFndsufeNDrseEJiCa-1" value="&lt;p style=&quot;font-size: 9px;&quot;&gt;&lt;font style=&quot;background-color: initial;&quot;&gt;*&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Вычисления с листа&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;«Reverse&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;UserAmountsCalc3» гугл-таблицы «&lt;/span&gt;&lt;a style=&quot;background-color: initial;&quot; href=&quot;https://docs.google.com/spreadsheets/d/1FeZcCx6ATETNPlvrDPwgKaPnJgs36vABzm52tFlCbQA/edit?pli=1#gid=356043838&quot;&gt;Cryptostorm Operation data model (Fiat -_ BTC)&lt;/a&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;»&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;(и, как следствие, вычисления справа) не полные, т.к. не включают:&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 9px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- описание расчета&amp;nbsp;PaymentSystem&lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;background-color: initial;&quot;&gt;Fee&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt; и &lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;background-color: initial;&quot;&gt;AgentsFee;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- возможность использования имеющихся в &lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;background-color: initial;&quot;&gt;Itez&lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;background-color: initial;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;остатков в &lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;background-color: initial;&quot;&gt;destination и withdrawal&lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;background-color: initial;&quot;&gt;currency, как источников криптовалюты для транзакции.&lt;/span&gt;&lt;/p&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 9pt;&quot; lang=&quot;EN-US&quot;&gt;&lt;/span&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;align=left;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-809" y="441.5" width="170" height="168.5" as="geometry" />
+        </mxCell>
+        <mxCell id="4eDFndsufeNDrseEJiCa-2" value="&lt;div style=&quot;font-size: 9px;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;**&lt;font&gt;Существует два способа расчета - forward и reverse:&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;font&gt;- при forward расчете все финансовые потоки последовательно рассчитываются от суммы, которую пользователь внес в фиатной валюте;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;font&gt;- при reverse расчете все финансовые потоки последовательно рассчитываются от суммы, которую пользователь получил в криптовалюте.&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;align=left;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-809" y="620" width="180" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="G3c2TYPDQOIENzMG2YkU-1" value="&lt;span style=&quot;font-size: 9px;&quot;&gt;Нужно ли здесь добавлять 3 ветки по источникам&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 9px; background-color: initial;&quot;&gt;криптовалюты для транзакции:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 9px; background-color: initial;&quot;&gt;1. внутренние источники;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 9px; background-color: initial;&quot;&gt;2. swap;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 9px; background-color: initial;&quot;&gt;3. биржа и осуществлять конвертацию в exchange currency только для ветки 3.биржа?&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#EA6B66;" parent="1" vertex="1">
+          <mxGeometry x="-80" y="470" width="290" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="IKZICl3nFCuPJClKvTgI" name="4.Reverse_short">
+    <mxGraphModel dx="1418" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hrXzYASurjqnZAbvvw7W-1" value="3" style="swimlane;startSize=20;horizontal=0;html=1;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="41" y="441" width="759" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="hrXzYASurjqnZAbvvw7W-2" value="2" style="swimlane;startSize=20;horizontal=0;html=1;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="41" y="561" width="759" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="hrXzYASurjqnZAbvvw7W-3" value="1" style="swimlane;startSize=20;horizontal=0;html=1;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="41" y="681" width="759" height="199" as="geometry" />
+        </mxCell>
+        <mxCell id="hrXzYASurjqnZAbvvw7W-4" value="4" style="swimlane;startSize=20;horizontal=0;html=1;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="41" y="321" width="759" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="hrXzYASurjqnZAbvvw7W-5" value="5" style="swimlane;startSize=20;horizontal=0;html=1;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="41" y="201" width="759" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="hrXzYASurjqnZAbvvw7W-6" value="6" style="swimlane;startSize=20;horizontal=0;html=1;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="41" y="81" width="759" height="120" as="geometry">
+            <mxRectangle x="41" y="81" width="40" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hrXzYASurjqnZAbvvw7W-7" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 14px;&quot;&gt;&lt;font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Reverse-c&lt;/span&gt;хема денежных потоков по транзакции&lt;/font&gt;&lt;/h1&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;b style=&quot;font-size: 9px;&quot;&gt;восстановлена на основе&amp;nbsp;&lt;/b&gt;&lt;b style=&quot;background-color: initial; font-size: 9px;&quot;&gt;формул&lt;/b&gt;&lt;font style=&quot;background-color: initial; font-size: 9px;&quot;&gt;&lt;b&gt;&amp;nbsp;с листа «&lt;/b&gt;&lt;b&gt;Reverse&lt;/b&gt;&lt;b&gt;UserAmountsCalc3» гугл-таблицы «&lt;/b&gt;&lt;a href=&quot;https://docs.google.com/spreadsheets/d/1FeZcCx6ATETNPlvrDPwgKaPnJgs36vABzm52tFlCbQA/edit?pli=1#gid=356043838&quot;&gt;&lt;b&gt;Cryptostorm Operation data model (Fiat -_ BTC)&lt;/b&gt;&lt;/a&gt;&lt;/font&gt;&lt;b style=&quot;background-color: initial; font-size: 9px;&quot;&gt;»&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;align=left;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="41" y="20" width="759" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hrXzYASurjqnZAbvvw7W-8" value="&lt;p style=&quot;font-size: 10px;&quot; align=&quot;center&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot; lang=&quot;EN-US&quot;&gt;WithdrawalFeeExchangeCurrencyAmount&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 10px;&quot; lang=&quot;EN-US&quot;&gt;(WithdrawalFee &lt;/span&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;в&lt;/span&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt; &lt;span style=&quot;font-size: 10px;&quot; lang=&quot;EN-US&quot;&gt;exchange currency)&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="360" y="462" width="191" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="hrXzYASurjqnZAbvvw7W-9" value="&lt;span style=&quot;font-size: 9px; text-align: left;&quot;&gt;NetExchangeCurrencyAmount&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="561" y="462" width="230" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="hrXzYASurjqnZAbvvw7W-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontColor=#000000;" parent="1" source="hrXzYASurjqnZAbvvw7W-11" target="hrXzYASurjqnZAbvvw7W-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hrXzYASurjqnZAbvvw7W-11" value="&lt;p style=&quot;&quot; align=&quot;center&quot; class=&quot;MsoNormal&quot;&gt;Добавление к&lt;br&gt;&lt;span style=&quot;background-color: initial; font-size: 9px; text-align: left;&quot;&gt;UserDestinationCurrencyAmount&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;комиссии&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;SwapProviderFee,&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;корректировка полученной суммы на&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;AdjustmentFactor и конвертация полученного из destination в exchange currency&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p align=&quot;center&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size:9.0pt&quot;&gt;&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="561" y="570" width="230" height="91" as="geometry" />
+        </mxCell>
+        <mxCell id="hrXzYASurjqnZAbvvw7W-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Helvetica;fontColor=#000000;" parent="1" source="hrXzYASurjqnZAbvvw7W-14" target="hrXzYASurjqnZAbvvw7W-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hrXzYASurjqnZAbvvw7W-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontColor=#000000;" parent="1" source="hrXzYASurjqnZAbvvw7W-14" target="hrXzYASurjqnZAbvvw7W-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hrXzYASurjqnZAbvvw7W-14" value="&lt;p style=&quot;&quot; class=&quot;MsoNormal&quot;&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial; font-size: 9px; text-align: left;&quot;&gt;UserDestinationCurrencyAmount&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(сумма, полученная пользователем в криптовалюте)&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;в &lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;background-color: initial;&quot;&gt;d&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;estination &lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;background-color: initial;&quot;&gt;currency&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p align=&quot;center&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size:9.0pt&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size:9.0pt&quot;&gt;&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;verticalAlign=middle;fontFamily=Helvetica;fontStyle=0;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="641" y="691" width="150" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="hrXzYASurjqnZAbvvw7W-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontColor=#000000;" parent="1" source="hrXzYASurjqnZAbvvw7W-16" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="660" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="596" y="671" />
+              <mxPoint x="660" y="671" />
+              <mxPoint x="660" y="661" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hrXzYASurjqnZAbvvw7W-16" value="&lt;p style=&quot;&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Swap&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ProviderFee&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;в&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; lang=&quot;EN-US&quot;&gt;d&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;estination&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;currency&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p align=&quot;center&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size:9.0pt&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size:9.0pt&quot;&gt;&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="561" y="691" width="70" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="hrXzYASurjqnZAbvvw7W-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Helvetica;fontColor=#000000;" parent="1" source="hrXzYASurjqnZAbvvw7W-18" target="hrXzYASurjqnZAbvvw7W-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hrXzYASurjqnZAbvvw7W-18" value="&lt;p align=&quot;center&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 9pt;&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;Service fee&lt;/span&gt;&lt;span lang=&quot;EN-US&quot;&gt;&amp;nbsp;в base currency&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="81" y="337" width="250" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="hrXzYASurjqnZAbvvw7W-19" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;NetUserBaseCurrencyAmount&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="361" y="338" width="430" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="hrXzYASurjqnZAbvvw7W-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Helvetica;fontColor=#000000;" parent="1" source="hrXzYASurjqnZAbvvw7W-21" target="hrXzYASurjqnZAbvvw7W-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hrXzYASurjqnZAbvvw7W-21" value="&lt;p class=&quot;MsoNormal&quot; align=&quot;center&quot; style=&quot;&quot;&gt;Добавление к&amp;nbsp;&lt;span style=&quot;text-align: left;&quot;&gt;NetExchangeCurrencyAmount комиссии&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;WithdrawalFeeExchangeCurrencyAmount и &lt;font color=&quot;#ea6b66&quot;&gt;конвертация полученной суммы из exchange в base currency&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="361" y="386" width="430" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="hrXzYASurjqnZAbvvw7W-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontColor=#000000;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="240.5" as="sourcePoint" />
+            <mxPoint x="439.5" y="161" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hrXzYASurjqnZAbvvw7W-23" value="&lt;p class=&quot;MsoNormal&quot; align=&quot;center&quot;&gt;&lt;span style=&quot;font-size:9.0pt&quot;&gt;Добавление к&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;NetUserBaseCurrencyAmount комиссии&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size:9.0pt&quot;&gt;Service fee в &lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-size:9.0pt;mso-ansi-language:EN-US&quot;&gt;base&lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-size:9.0pt&quot;&gt; &lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-size:&lt;br/&gt;9.0pt;mso-ansi-language:EN-US&quot;&gt;currency и конвертация полученной суммы из base в payment system и из payment system в source currency&lt;/span&gt;&lt;span style=&quot;font-size:9.0pt&quot;&gt;&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="81" y="240.5" width="710" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="hrXzYASurjqnZAbvvw7W-24" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp;UserSourceCurrencyAmount -&amp;nbsp;в&lt;span style=&quot;background-color: initial;&quot;&gt;несенная в виджет пользователем&amp;nbsp;сумма фиатной валюты &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;в source currency&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="81" y="120" width="709" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="hrXzYASurjqnZAbvvw7W-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.486;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontColor=#000000;" parent="1" source="hrXzYASurjqnZAbvvw7W-8" target="hrXzYASurjqnZAbvvw7W-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hrXzYASurjqnZAbvvw7W-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.521;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontColor=#000000;" parent="1" source="hrXzYASurjqnZAbvvw7W-9" target="hrXzYASurjqnZAbvvw7W-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hrXzYASurjqnZAbvvw7W-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.513;entryY=1.012;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontColor=#000000;" parent="1" source="hrXzYASurjqnZAbvvw7W-19" target="hrXzYASurjqnZAbvvw7W-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hrXzYASurjqnZAbvvw7W-28" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontColor=#000000;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20.480000000000018" y="881.5" as="sourcePoint" />
+            <mxPoint x="20" y="81.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hrXzYASurjqnZAbvvw7W-29" value="&lt;p class=&quot;MsoListParagraphCxSpFirst&quot; style=&quot;text-indent: -18pt; font-size: 14px;&quot;&gt;&lt;/p&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Сумма,&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; lang=&quot;EN-US&quot;&gt;&amp;nbsp;взимаемая с пользователя в &lt;span lang=&quot;EN-US&quot; style=&quot;&quot;&gt;source&lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;&quot;&gt; &lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;&quot;&gt;currency&lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;&quot;&gt;&amp;nbsp;определяется&lt;/span&gt;&amp;nbsp;из полученной пользователем в результате транзакции&amp;nbsp;&lt;span lang=&quot;EN-US&quot; style=&quot;&quot;&gt;destination&lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;&quot;&gt; &lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;&quot;&gt;currency&lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;&quot;&gt; &lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;&quot;&gt;amount&lt;/span&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;путем последовательной конвертации destination в exchange, exchange в base, base в payment system, payment system в source currency&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; lang=&quot;EN-US&quot;&gt;, а также&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;background-color: initial; text-indent: -18pt;&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; text-indent: -18pt;&quot;&gt;добавления&lt;/span&gt;&lt;span style=&quot;background-color: initial; text-indent: -18pt;&quot;&gt; &lt;span lang=&quot;EN-US&quot;&gt;“Fixed” service fee;&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;добавления&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;s&lt;span lang=&quot;EN-US&quot;&gt;wap provider fee;&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;корректировки на оценку &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; lang=&quot;EN-US&quot;&gt;AdjustmentFactor&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;;&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;добавления&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;w&lt;span lang=&quot;EN-US&quot;&gt;ithdrawal fee&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;.&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;&lt;p&gt;&lt;/p&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Таким образом, курс source to destination&amp;nbsp;&lt;/span&gt;currency&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;для пользователя зависит от курсов конвертации&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;source в payment system,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;payment system в&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;base, base в exchange, exchange в&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; lang=&quot;EN-US&quot;&gt;destination&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; lang=&quot;EN-US&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; lang=&quot;EN-US&quot;&gt;currency, а также размеров комиссий.&lt;/span&gt;&lt;/font&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;p style=&quot;font-size: 14px;&quot;&gt;&lt;/p&gt;&lt;p class=&quot;MsoListParagraphCxSpFirst&quot; style=&quot;text-indent: -18pt; font-size: 14px;&quot;&gt;&lt;span style=&quot;text-indent: -18pt; background-color: initial; font-size: 14px;&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=14;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="36" y="881" width="789" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="SvjRpan_A3f8xouYXfnF-1" value="&lt;span style=&quot;font-size: 9px;&quot;&gt;Нужно ли здесь добавлять 3 ветки по источникам&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 9px; background-color: initial;&quot;&gt;криптовалюты для транзакции:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 9px; background-color: initial;&quot;&gt;1. внутренние источники;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 9px; background-color: initial;&quot;&gt;2. swap;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 9px; background-color: initial;&quot;&gt;3. биржа и осуществлять конвертацию в exchange currency только для ветки 3.биржа?&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#EA6B66;" parent="1" vertex="1">
+          <mxGeometry x="796" y="350" width="184" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="gcGd6eYheZ6w2jZZaU0l" name="Fees and rates">
+    <mxGraphModel dx="2245" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GJD5TTU8bc3yigviTtAm-1" value="Payment system fee" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=none;fillColor=#E6E6E6;" parent="1" vertex="1">
+          <mxGeometry x="-773" y="250" width="100" height="109" as="geometry" />
+        </mxCell>
+        <mxCell id="GJD5TTU8bc3yigviTtAm-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=12;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=none;" parent="1" source="GJD5TTU8bc3yigviTtAm-3" target="GJD5TTU8bc3yigviTtAm-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-617" y="301" />
+              <mxPoint x="-617" y="301" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GJD5TTU8bc3yigviTtAm-3" value="Direct agents fee" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=none;fillColor=#E6E6E6;" parent="1" vertex="1">
+          <mxGeometry x="-662" y="311" width="89" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="GJD5TTU8bc3yigviTtAm-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=none;" parent="1" source="GJD5TTU8bc3yigviTtAm-5" target="GJD5TTU8bc3yigviTtAm-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-518" y="291" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-518" y="301" />
+              <mxPoint x="-518" y="301" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GJD5TTU8bc3yigviTtAm-5" value="Deffered agents fee" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=none;fillColor=#E6E6E6;" parent="1" vertex="1">
+          <mxGeometry x="-563" y="311" width="90" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="GJD5TTU8bc3yigviTtAm-6" value="Agents fee" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=none;fillColor=#E6E6E6;" parent="1" vertex="1">
+          <mxGeometry x="-662" y="250" width="189" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GJD5TTU8bc3yigviTtAm-7" value="&lt;span style=&quot;font-size: 12px;&quot; lang=&quot;EN-US&quot;&gt;&quot;Fixed&quot; service fee &lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot; lang=&quot;EN-US&quot;&gt;- Payment system fee - Agents fee&amp;nbsp;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=none;fillColor=#E6E6E6;" parent="1" vertex="1">
+          <mxGeometry x="-463" y="250" width="110" height="109" as="geometry" />
+        </mxCell>
+        <mxCell id="GJD5TTU8bc3yigviTtAm-8" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;&quot;Fixed&quot; service fee&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-773" y="190" width="420" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GJD5TTU8bc3yigviTtAm-9" value="&lt;span style=&quot;font-size: 12px;&quot; lang=&quot;EN-US&quot;&gt;Swap provider fee&amp;nbsp;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-343" y="190" width="110" height="169" as="geometry" />
+        </mxCell>
+        <mxCell id="GJD5TTU8bc3yigviTtAm-10" value="&lt;p style=&quot;font-size: 12px;&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot; lang=&quot;EN-US&quot;&gt;Service fee&lt;sup style=&quot;font-size: 12px;&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-773" y="130" width="540" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GJD5TTU8bc3yigviTtAm-11" value="&lt;p style=&quot;font-size: 12px;&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot; lang=&quot;EN-US&quot;&gt;Withdrawal fee&amp;nbsp;&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-223" y="130" width="110" height="229" as="geometry" />
+        </mxCell>
+        <mxCell id="GJD5TTU8bc3yigviTtAm-12" value="&lt;p style=&quot;font-size: 12px;&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot; lang=&quot;EN-US&quot;&gt;Fee&lt;sup style=&quot;font-size: 12px;&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-773" y="69" width="660" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GJD5TTU8bc3yigviTtAm-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.898;entryY=1.025;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=none;" parent="1" source="GJD5TTU8bc3yigviTtAm-9" target="GJD5TTU8bc3yigviTtAm-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GJD5TTU8bc3yigviTtAm-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.119;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=none;" parent="1" source="GJD5TTU8bc3yigviTtAm-1" target="GJD5TTU8bc3yigviTtAm-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GJD5TTU8bc3yigviTtAm-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.119;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=none;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-573" y="250" as="sourcePoint" />
+            <mxPoint x="-573" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-573" y="250" />
+              <mxPoint x="-573" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GJD5TTU8bc3yigviTtAm-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.411;entryY=1.025;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;fontFamily=Helvetica;labelBackgroundColor=none;" parent="1" source="GJD5TTU8bc3yigviTtAm-10" target="GJD5TTU8bc3yigviTtAm-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GJD5TTU8bc3yigviTtAm-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.918;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;fontFamily=Helvetica;labelBackgroundColor=none;" parent="1" source="GJD5TTU8bc3yigviTtAm-11" target="GJD5TTU8bc3yigviTtAm-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GJD5TTU8bc3yigviTtAm-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.385;entryY=0.975;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;fontFamily=Helvetica;labelBackgroundColor=none;" parent="1" source="GJD5TTU8bc3yigviTtAm-8" target="GJD5TTU8bc3yigviTtAm-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GJD5TTU8bc3yigviTtAm-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.874;entryY=1.025;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;fontFamily=Helvetica;labelBackgroundColor=none;" parent="1" source="GJD5TTU8bc3yigviTtAm-7" target="GJD5TTU8bc3yigviTtAm-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GJD5TTU8bc3yigviTtAm-20" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 14px;&quot;&gt;Комиссии&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;align=left;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-800" y="19" width="400" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GJD5TTU8bc3yigviTtAm-21" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 14px;&quot;&gt;Обменные курсы&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;align=left;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-800" y="640" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GJD5TTU8bc3yigviTtAm-22" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-bottom:0cm&quot;&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;SourceToPaymentSystemCurrencyRate&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;PaymentSystemToBaseCurrencyRate&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;ExchangeToBaseCurrencyRate&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;ExchangeToDestinationCurrencyRate&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;ExchangeToWithdrawalFeeCurrencyRate&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;ReservedBaseToDestinationCurrencyRate&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;ReservedBaseToWithdrawalFeeCurrencyRate&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;SwapToDestinationCurrencyRate&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontFamily=Helvetica;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-800" y="675" width="320" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="GJD5TTU8bc3yigviTtAm-23" value="&lt;p class=&quot;MsoNormal&quot; style=&quot;margin-bottom:0cm;text-align:justify&quot;&gt;&lt;span style=&quot;&quot;&gt;Виджет – платформа, через которую пользователь может обменять фиат на криптовалюту.&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;&quot;&gt;Agent – те, кому положены вознаграждения за пользователя. Предполагалось, что агентами могут быть не только партнеры, но и&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;&quot;&gt;пользователи&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;(кто по реферальной&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;программе&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;привел пользователя).&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;&quot;&gt;Partner – те, через кого пришла транзакция.&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;&quot;&gt;User – пользователь.&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;&quot;&gt;Source сurrency – фиатная валюта, которую пользователь перевел в виджет с целью обменять на криптовалюту.&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;&quot;&gt;Payment system currency – это валюта, в которую&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;эквайер&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;конвертирует фиатную валюту пользователя (source сurrency).&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;&quot;&gt;Base сurrency – базовая валюта, к которой проводятся все расчеты «под капотом» виджета.&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;&quot;&gt;Exchange currency – валюта, за которую на бирже покупается криптовалюта.&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;&quot;&gt;Destination сurrency – та криптовалюта, которую пользователь хочет в итоге получить.&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;&quot;&gt;Swap сurrency – в случае, если на бирже не торгуется валютная пара Exchange currency / Destination сurrency, сначала покупается&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;&quot;&gt;Swap сurrency,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;за которую затем &lt;/span&gt;&lt;span style=&quot;&quot;&gt;приобретается Destination сurrency.&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;&quot;&gt;Withdrawal fee currency – валюта, в которой выплачивается комиссия за вывод destination сurrency пользователю (комиссия блокчейн сети).&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;fontFamily=Helvetica;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-810" y="915" width="810" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="GJD5TTU8bc3yigviTtAm-24" value="Глоссарий" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;align=left;fontFamily=Helvetica;fontStyle=1;fontSize=14;fontColor=#000000;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-800" y="884" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GjX1eM4X9gBNo61Mwr8F-2" value="&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&quot;Fixed&quot; service fee рассчитывается&amp;nbsp;&lt;/span&gt;в base currency&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;путем умножения фиксированного коэффициента&amp;nbsp;ServiceFeeCoefficient на&amp;nbsp;UserBaseCurrencyAmount (UserBaseCurrencyAmount получается из&amp;nbsp;внесенной в виджет пользователем&amp;nbsp;суммы фиатной валюты в source currency путем конвертации из source в payment system и затем из payment system в base currency).&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#999999&quot; style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;background-color: initial; text-align: center;&quot;&gt;Payment system fee&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;рассчитывается&amp;nbsp;&lt;/span&gt;в base currency&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;путем умножения фиксированного коэффициента PaymentSystemFeeCoefficient на UserBaseCurrencyAmount.&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#999999&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;Agents fee&amp;nbsp;&lt;/span&gt;рассчитывается&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;в base currency&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;путем умножения фиксированного коэффициента&amp;nbsp;AgentsFeeCoefficient на (&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;UserBaseCurrencyAmount*ServiceFeeCoefficient-&lt;/span&gt;&lt;span style=&quot;background-color: initial; text-align: center;&quot;&gt;Payment system fee&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;).&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#999999&quot; style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;text-align: justify; text-wrap: nowrap;&quot;&gt;Direct agents fee&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: justify; text-wrap: nowrap;&quot;&gt;– часть&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: justify; text-wrap: nowrap;&quot;&gt;agents fee&lt;/span&gt;&lt;span style=&quot;text-align: justify; text-wrap: nowrap;&quot;&gt;, которая выплачивается в криптовалюте. Рассчитывается путем умножения&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;Agents fee в base currency на фиксированный коэффициент и затем конвертации полученной суммы в криптовалюту.&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#999999&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;text-align: justify; text-wrap: nowrap;&quot;&gt;Deffered agents fee&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: justify; text-wrap: nowrap;&quot;&gt;– часть&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: justify; text-wrap: nowrap;&quot;&gt;agents fee&lt;/span&gt;&lt;span style=&quot;text-align: justify; text-wrap: nowrap;&quot;&gt;, которая выплачивается в фиате.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; text-wrap: nowrap; text-align: justify;&quot;&gt;Рассчитывается&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;в base currency&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; text-wrap: nowrap; text-align: justify;&quot;&gt;путем умножения&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; text-align: center;&quot;&gt;Agents fee на фиксированный коэффициент.&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;i&gt;&lt;span style=&quot;text-align: center;&quot;&gt;Swap provi&lt;font style=&quot;font-size: 12px;&quot;&gt;der fe&lt;/font&gt;e в алгоритме&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;рассчитывается&amp;nbsp;путем умножения фиксированного коэффициента&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;SwapProviderFee на сумму destination currency, которая получилась в результате конвертации из exchange в destination currency в т.ч. с использованием свопа.&lt;/span&gt;&lt;/i&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;Withdrawal fee&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;может быть задана как сумма в withdrawal fee currency или как фиксированный коэффициент. В случае, если&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;Withdrawal fee задана как фиксированный коэффициент, сумма&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;Withdrawal fee&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;рассчитывается&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;путем умножения этого коэффициента на (1-&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ServiceFeeCoefficient&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;)*&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;UserBaseCurrencyAmount конвертированную в exchange currency и затем полученная сумма конвертируется в withdrawal fee currency&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;" parent="1" vertex="1">
+          <mxGeometry x="-800" y="361" width="1380" height="206" as="geometry" />
+        </mxCell>
+        <mxCell id="YB63BQRHkFNc5C0jyh2W-1" value="&lt;p style=&quot;font-size: 9px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Подробное описание расчета комиссий, выделенных серым, приведено&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;в файле &quot;2. Подробное пошаговое описание расчета денежных потоков, fees, rates, amounts по транзакциям виджета.drawio&quot;.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-size: 9pt;&quot;&gt;&lt;/span&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;align=left;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-788" y="551" width="1348" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JPLfc_A_-UYEZPKHmFR4-1" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;text-wrap: nowrap; background-color: initial;&quot;&gt;Как определяется и откуда поступает в dwh курс SourceToPaymentSystemCurrencyRate? Это курс эквайера? В этом курсе может быть заложена комиссия payment system fee?&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Payment system fee взимается в реальности в payment system currency эквайером? В расчетах ее размер определяется в base currency после конвертации суммы от пользователя в фиате из source в payment system и затем из payment system в base.&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Как определяется и откуда поступает в dwh курс PaymentSystemToBaseCurrencyRate? Кто производит конвертацию по курсу? Всегда ли проводится конвертация из payment system в base currency суммы от пользователя в фиате?&amp;nbsp;&lt;/span&gt;В расчетах&amp;nbsp;по схеме ниже пока заложено, что конвертация происходит всегда.&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Как определяется и откуда поступает в dwh курс ExchangeToBaseCurrencyRate?&amp;nbsp;&lt;/span&gt;Кто производит конвертацию по курсу?&amp;nbsp;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#ea6b66&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Всегда ли происходит конвертация из base в exchange currency? Или для случаев, когда источник destination currency не биржа конвертации не будет? Если да, то после определения показателя 29. как скорректировать схему расчетов Forward?&amp;nbsp;&lt;/span&gt;В расчетах&amp;nbsp;по схеме Forward пока заложено, что конвертация из base в exchange currency происходит всегда.&lt;/font&gt;&lt;/li&gt;&lt;li&gt;Если был swap, то полученная сумма в destination currency по swap уже должна быть за вычетом swap prowider fee? Если да, то swap prowider fee = (cумма в destination currency по swap)/(1-SwapProviderFee) - cумма в destination currency по swap.&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;Как определяется и откуда поступает в dwh курс&amp;nbsp;&lt;/span&gt;ExchangeToDestinationCurrencyRate, ExchangeToWithdrawalCurrencyRate? Это курс биржи? В этот курс включена комиссия биржи?&amp;nbsp;&lt;/li&gt;&lt;li&gt;Нужно ли выделять комиссию биржи? В расчетах&amp;nbsp;по схеме Forward и Reverse пока комиссия биржи не определяется.&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-490" y="667.5" width="1070" height="191" as="geometry" />
+        </mxCell>
+        <mxCell id="JPLfc_A_-UYEZPKHmFR4-2" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 14px;&quot;&gt;Вопросы по обменным курсам&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;align=left;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-463" y="640" width="400" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
