@@ -4,13 +4,13 @@
 
 Используемые библиотеки:
  - работа с данными:
-  - [pandas](https://pandas.pydata.org/docs/user_guide/index.html#user-guide)
-  - [numpy](https://numpy.org)
+   - [pandas](https://pandas.pydata.org/docs/user_guide/index.html#user-guide)
+   - [numpy](https://numpy.org)
  - визуализация:
-  - [matplotlib](https://matplotlib.org)
-  - [seaborn](https://seaborn.pydata.org)
+   - [matplotlib](https://matplotlib.org)
+   - [seaborn](https://seaborn.pydata.org)
  - статистическое моделирование
-  - [scipy](https://scipy.org)
-  - [statsmodels](https://www.statsmodels.org/stable/)
+   - [scipy](https://scipy.org)
+   - [statsmodels](https://www.statsmodels.org/stable/)
  - подключение к PostgreSQL
-    - [psycopg2](https://www.psycopg.org)
+   - [psycopg2](https://www.psycopg.org)
